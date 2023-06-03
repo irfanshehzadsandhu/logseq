@@ -1,0 +1,1 @@
+- This principle states that high level modules should depend on low level modules abstractions instead of concrete implementations.

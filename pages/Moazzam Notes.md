@@ -1,0 +1,5 @@
+- #### Moazzam [[May 30th, 2023]] Target
+- Integrate authentication and testing before 01 : 30 =>(Done with full testing 12:53)
+- Need to integrate multi form data upload feature try before 07 : 00
+- Need to have Tags endpoints CRUD before day end
+- Need to provide Paginated Result before day end

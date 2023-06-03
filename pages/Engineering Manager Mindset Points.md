@@ -1,0 +1,3 @@
+- Specialist to Generalist
+- Analyst to integrator
+- Tactician to strategist

@@ -1,0 +1,21 @@
+- Chapter #1
+	- What to expect from manager
+		- One-on-Ones Meetings
+			- 1:1 serves two purposes. First one is it creates a human interaction between managers and its teammates. The second purpose of a 1-1 is a regular opportunity for you to speak privately with your manager about whatever needs discussing.
+			- Also 1:1 is not a status meeting
+		- Feedback and Workplace Guidence
+			- Second thing to expect from manager is Feedback other than performance reviews although its part of performance reviews.
+			- Feedback is uncomfortable but it the the worse thing if you are not getting behaviour feedback at all. A good manager keeps track of his team mate on daily basis and uses this feedback when employee writes self review during performance reviews
+			- A good manager criticises in private and praises in public.
+			- Another type of feedback is ask your manager to review your presentation, content or code.
+			- When its come to your role at company , your manager is your number one ally. You can sit with your manager and ask him in which areas you should improve yourself to get promotion.
+			- If you are unhappy with your team mate you can ask your manager and he will resolve it for you
+			- Your manager will assign you stretched projects and help you to understand how much your work has added value in company and overall success of company
+			- As you get promoted this feedback will be move from personal to team level.
+		- Training and career Growth
+	- How to be managed?
+		- Spend Time Thinking About You Want
+			- Use your manager to discover what’s possible where you are, but look to understand yourself in order to figure out where you want to go next.
+		- You are responsible for yourself
+		- Give your manager a break
+		-

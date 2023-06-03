@@ -1,0 +1,2 @@
+- Important Links to read [Link Sent By Hammad](https://blog.pragmaticengineer.com/performance-reviews-for-software-engineers/) and [Second Link by Hammad](https://railsware.com/blog/engineering-performance-review/)
+- Where carbonteq has defined expectations on the basis of which performance review will be done?

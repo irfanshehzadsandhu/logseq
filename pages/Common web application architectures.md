@@ -1,0 +1,24 @@
+- Reference: [Common web application architectures](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures)
+- # Monolithic Application
+	- Monolithic application is one that is self contained , in terms of its behaviour. It may interact with other services and data stores but the core of its behaviour runs with the same process and entire application is deployed as a single unit
+	- If such application needs to be scaled horizontally entire application will be duplicated across multiple servers or virtual machines
+	- ### Disadvantages of Monolithic Application
+		- Business logic is scattered between different layers
+- # What are Layers?
+	- As the application grows in complexity , application code can be divided into different layers according to their responsibilities and concerns
+	- ## Advantages of Layers
+		- Organising the code into layers have following advantages
+			- Common low-level functionality can be reused across all the application, following the don't repeat yourself principle
+				- <ins>DRY aims at reducing the repetition of software patterns , by replacing it with abstractions or data normalisation</ins>
+			- Layered architecture helps Application to enforce restriction which layers can communicate with layers. This also help to achieve encapsulation.
+			- Testing part is pending and will discuss it later with Arslan or any other peer.
+- # Clean Architecture
+	-
+- Questions
+	- What are swapping out implementations?
+	- Data Access Layer ?
+- Words and their meanings
+	- Non-trivial: significant
+	- Monolithic: formed of a single large block of stone
+	- Low-level functions: Low level functions are functions who do not call other functions
+	- mitigate: make something less severe, serious or painful

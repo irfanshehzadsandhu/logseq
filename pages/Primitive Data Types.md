@@ -1,0 +1,3 @@
+- Primitive data types are predefined. These data types have no additional method attached to them and are well defined
+	- Predefined meaning: Established in advance means built in
+- Non primitive data types are defined by a developer.

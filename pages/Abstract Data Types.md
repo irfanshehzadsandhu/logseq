@@ -1,0 +1,3 @@
+- Abstract data types classifies the types of data structures along with their predefined functions. As name implies abstract data types does not provide how data types are implemented because their implementation is hidden
+- Each abstract data type is ready to use and provides basic operations like insertion , updating and deletion
+-

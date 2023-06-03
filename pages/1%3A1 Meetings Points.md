@@ -1,0 +1,7 @@
+- # Bad 1:1 Points
+	- Empty Talk
+	- Bare minimum answers
+	- Broken Records: Discussing same things without making progress
+	- Cut Short
+	- Poor Body language
+-

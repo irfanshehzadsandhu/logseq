@@ -1,0 +1,2 @@
+- Great CTOs have strong communication skills, project management skills, and product sense, in addition to good technical sense.
+-

@@ -1,0 +1,13 @@
+- Keep fahad in loop for railway pattern integration in future projects
+- Exercise of railway pattern on dev portal.
+- Auxillary Excercises. When a resource will be free engineering manager will assign one of those exercise to his peer. Its not a part of initial training.
+- Antd tokonization , I have to do it on personally so that in future project i will be able to integrate
+- LMS section on dev portal/Learning Resources
+- Pick topics and will be discussed in tomorrow meeting
+-
+-
+-
+- Overview
+-
+- Managers training
+-
