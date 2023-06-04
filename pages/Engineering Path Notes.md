@@ -1,4 +1,4 @@
-- Chapter #1
+- Chapter 1
 	- What to expect from manager
 		- One-on-Ones Meetings
 			- 1:1 serves two purposes. First one is it creates a human interaction between managers and its teammates. The second purpose of a 1-1 is a regular opportunity for you to speak privately with your manager about whatever needs discussing.
