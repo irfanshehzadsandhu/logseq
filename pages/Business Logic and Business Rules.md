@@ -3,5 +3,6 @@
 - Workflow
 	- Workflow is set of activities which are necessary to perform a certain task
 - Business Logic
-	- Business logic manages the communication between end user interface and a database
+	- Business logic manages the communication between end user interface and a database. Business logic has two main components business rules and workflows
+	-
 	-
