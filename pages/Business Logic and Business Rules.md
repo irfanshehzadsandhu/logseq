@@ -1,0 +1,2 @@
+- ## Business Rules
+	- Business rules are set of instructions and constraints which determine
