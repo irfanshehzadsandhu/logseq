@@ -1,2 +1,3 @@
 - ## Business Rules
-	- Business rules are set of instructions and constraints which determine
+	- Business rules are set of instructions and constraints which determine how a process is performed.
+	-
