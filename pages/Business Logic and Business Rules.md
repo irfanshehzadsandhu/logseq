@@ -2,3 +2,6 @@
 	- Business rules are set of instructions and constraints which determine how a process is performed.
 - Workflow
 	- Workflow is set of activities which are necessary to perform a certain task
+- Business Logic
+	- Business logic manages the communication between end user interface and a database
+	-
