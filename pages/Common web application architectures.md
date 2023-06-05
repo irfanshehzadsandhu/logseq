@@ -3,7 +3,8 @@
 	- Monolithic application is one that is self contained , in terms of its behaviour. It may interact with other services and data stores but the core of its behaviour runs with the same process and entire application is deployed as a single unit
 	- If such application needs to be scaled horizontally entire application will be duplicated across multiple servers or virtual machines
 	- ### Disadvantages of Monolithic Application
-		- Business logic is scattered between different layers
+		- Business logic is scattered between different layers.
+			- Take an example of rails application . I used to apply business rules in controllers and services
 - # What are Layers?
 	- As the application grows in complexity , application code can be divided into different layers according to their responsibilities and concerns
 	- ## Advantages of Layers
