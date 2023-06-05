@@ -7,3 +7,6 @@
 - Domain model
 	- Currently I considered it as entity but in future i will dig it more
 	-
+- A helpful topic to understand business logic
+	- https://www.ben-morris.com/what-do-we-actually-mean-when-we-say-business-logic/
+	-
