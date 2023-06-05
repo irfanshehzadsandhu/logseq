@@ -1,1 +1,1 @@
-- Clean
+- Clean Architecture puts the [[Business Logic and Business Rules]] at the center of application. Bus
