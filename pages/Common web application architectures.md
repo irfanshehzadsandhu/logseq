@@ -14,7 +14,7 @@
 			- Layered architecture helps Application to enforce restriction which layers can communicate with layers. This also help to achieve encapsulation.
 			- Testing part is pending and will discuss it later with Arslan or any other peer.
 - # Clean Architecture
-	-
+	- Applications that follows [[Dependency Inversion Principle]] or domain driven design principles tend to arrive at a similar architecture (clean )
 - Questions
 	- What are swapping out implementations?
 	- Data Access Layer ?
