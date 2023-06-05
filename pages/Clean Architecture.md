@@ -1,1 +1,2 @@
-- Clean Architecture puts the [[Business Logic and Business Rules]] at the centre of application. Business logic doesn't depend on data access or other infrastructure concerns, this dependency is inverted: infrastructure and implementation details depend on the Application Core.
+- Clean Architecture puts the [[Business Logic and Business Rules]] at the centre of application. Business logic doesn't depend on data access or other infrastructure concerns, this dependency is inverted: infrastructure and implementation details depend on the Application Core. This functionality is achieved by defining abstractions, or interfaces, in the Application Core, which are then implemented by types defined in the Infrastructure layer.
+- {{cards clean architecture diagram}}
