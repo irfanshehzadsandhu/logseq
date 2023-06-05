@@ -1,1 +1,1 @@
-- Clean Architecture puts the [[Business Logic and Business Rules]] at the center of application. Bus
+- Clean Architecture puts the [[Business Logic and Business Rules]] at the centre of application. Business logic doesn't depend on data access or other infrastructure concerns, this dependency is inverted: infrastructure and implementation details depend on the Application Core.
