@@ -1,0 +1,259 @@
+;; Logseq Default Query 6-pack
+;; ---------------------------
+;; 
+;; Pontus Sundén (@psu)
+;; October 28, 2022
+;;
+;; Attribution
+;; - https://gist.github.com/sawhney17/3a1b04936f35df80253431a61cb74737
+;;
+;; ---------------------------
+
+;; Enable Block timestamp
+:feature/enable-block-timestamps? true
+
+;; Disable Built-in Scheduled and deadline Query
+:feature/disable-scheduled-and-deadline-query? true
+
+;; Pre-defined :result-transform function to use in Query
+:query/result-transforms
+{:sort-by-priority
+    (fn [result] (sort-by (fn [h] (get h :block/priority "Z")) result))}
+
+:default-queries {
+:journals [
+
+;; Default query Overdue
+{
+:title "🔥 Overdue"
+:query [
+    :find (pull ?b [*])
+    :in $ ?deadline [?active ...] %
+    :where 
+        [?b :block/marker ?active]
+        (psu-overdue ?b ?deadline)
+]
+:inputs [:today ["TODO" "DOING" "NOW" "LATER" "WAITING"]]
+:rules [
+    [(psu-overdue ?b ?deadline)
+        (or
+            (and [?b :block/deadline ?date] [(< ?date ?deadline)])
+            (and [?b :block/scheduled ?date] [(< ?date ?deadline)])
+        )
+    ]
+]
+:result-transform :sort-by-priority
+:collapsed? false
+:breadcrumb-show? false
+}
+
+;; Default query "Do it now"/Today/Current
+{
+:title "🍎 Do it now"
+:query [
+    :find (pull ?b [*])
+    :in $ ?today [?active ...] [?current ...] %
+    :where 
+        (or 
+            (and (psu-today ?b ?today) [?b :block/marker ?active])
+            (and (psu-not-started ?b ?today) [?b :block/marker ?active])
+            [?b :block/marker ?current]
+        )
+        (not (psu-overdue ?b ?today))
+]
+:inputs [:today ["TODO" "DOING" "NOW" "LATER" "WAITING"] ["NOW" "DOING"]]
+:rules [
+    [(psu-today ?b ?today)
+        [?b :block/deadline ?date]
+        [(= ?date ?today)]
+    ]
+    [(psu-not-started ?b ?start)
+        [?b :block/scheduled ?date]
+        [(<= ?date ?start)]
+    ]
+    [(psu-overdue ?b ?deadline)
+        (or
+            (and [?b :block/deadline ?date] [(< ?date ?deadline)])
+            (and [?b :block/scheduled ?date] [(< ?date ?deadline)])
+        )
+    ]
+]
+:result-transform :sort-by-priority
+:collapsed? false
+:breadcrumb-show? false
+}
+
+;; Default query New (2 days = today and yesterday)
+;; https://discuss.logseq.com/t/list-of-recently-created-modified-pages-timestamp-issues/5342/2
+{
+:title "🌟 New"
+:query [
+    :find (pull ?b [*])
+    :in $ ?new-start-days ?new-end-ts [?active ...] ?today %
+    :where
+        [?b :block/marker ?active]
+        (psu-new ?b ?new-start-days ?new-end-ts)
+        (not (psu-overdue ?b ?today))
+        (not (psu-not-started ?b ?today))
+        (not (psu-today ?b ?today))
+]
+:inputs [2 :end-of-today-ms ["TODO" "DOING" "NOW" "LATER" "WAITING"] :today]
+:rules [
+    [(psu-new ?b ?new-start-days ?new-end-ts)
+        [?b :block/created-at ?ts]
+        [(* ?new-start-days 60 60 24 1000) ?range]
+        [(- ?new-end-ts ?range) ?period]
+        [(>= ?ts ?period)]
+        [(< ?ts ?new-end-ts)]
+    ]
+    [(psu-not-started ?b ?start)
+        [?b :block/scheduled ?date]
+        [(<= ?date ?start)]
+    ]
+    [(psu-overdue ?b ?deadline)
+        (or
+            (and [?b :block/deadline ?date] [(< ?date ?deadline)])
+            (and [?b :block/scheduled ?date] [(< ?date ?deadline)])
+        )
+    ]
+    [(psu-today ?b ?today)
+        (or [?b :block/deadline ?date] [?b :block/scheduled ?date])
+        [(= ?date ?today)]
+    ]
+]
+:collapsed? false
+:breadcrumb-show? false
+}
+
+;; Default query "Next 7 day"/Week
+{
+:title "🗓 Next 7 days"
+:query [
+    :find (pull ?b [*])
+    :in $ ?next-start ?next-end ?new-start-days ?new-end-ts [?active ...] %
+    :where
+        [?b :block/marker ?active] 
+        (or
+            (psu-next ?b ?next-start ?next-end)
+            (psu-not-started ?b ?next-end)
+        )
+        (not (psu-new ?b ?new-start-days ?new-end-ts))
+]
+:inputs [:today :7d-after 2 :end-of-today-ms ["TODO" "DOING" "NOW" "LATER" "WAITING"]]
+:rules [
+    [(psu-next ?b ?next-start ?next-end)
+        (or [?b :block/deadline ?date] [?b :block/scheduled ?date])
+        [(> ?date ?next-start)]
+        [(<= ?date ?next-end)]
+    ]
+    [(psu-not-started ?b ?start)
+        [?b :block/scheduled ?date]
+        [(<= ?date ?start)]
+    ]
+    [(psu-new ?b ?new-start-days ?new-end-ts)
+        [?b :block/created-at ?ts]
+        [(* ?new-start-days 60 60 24 1000) ?range]
+        [(- ?new-end-ts ?range) ?period]
+        [(>= ?ts ?period)]
+        [(< ?ts ?new-end-ts)]
+    ]
+]
+:collapsed? true
+:breadcrumb-show? false
+}
+
+;; Default query Waiting
+{
+:title "⌛️ Waiting"
+:query [
+    :find (pull ?b [*])
+    :in $ ?today ?next-end [?on-hold ...] ?new-start-days ?new-end-ts %
+    :where
+        [?b :block/marker ?on-hold]
+        (not (psu-overdue ?b ?today))
+        (not (psu-not-started ?b ?today))
+        (not (psu-today ?b ?today))
+        (not (psu-next ?b ?today ?next-end))
+        (not (psu-new ?b ?new-start-days ?new-end-ts))
+]
+:inputs [:today :7d-after ["WAITING"] 2 :end-of-today-ms]
+:rules [
+    [(psu-not-started ?b ?start)
+        [?b :block/scheduled ?date]
+        [(<= ?date ?start)]
+    ]
+    [(psu-overdue ?b ?deadline)
+        [?b :block/deadline ?date]
+        [(< ?date ?deadline)]
+    ]
+    [(psu-today ?b ?today)
+        (or [?b :block/deadline ?date] [?b :block/scheduled ?date])
+        [(= ?date ?today)]
+    ]
+    [(psu-next ?b ?next-start ?next-end)
+        (or [?b :block/deadline ?date] [?b :block/scheduled ?date])
+        [(> ?date ?next-start)]
+        [(<= ?date ?next-end)]
+    ]
+    [(psu-new ?b ?new-start-days ?new-end-ts)
+        [?b :block/created-at ?ts]
+        [(* ?new-start-days 60 60 24 1000) ?range]
+        [(- ?new-end-ts ?range) ?period]
+        [(>= ?ts ?period)]
+        [(< ?ts ?new-end-ts)]
+    ]    
+]
+:collapsed? true
+:breadcrumb-show? false
+}
+
+;; Default query Backlog aka. the rest
+{
+:title "📂 Backlog"
+:query [
+  :find (pull ?b [*])
+  :in $ ?today ?next-end ?new-start-days ?new-end-ts [?active ...] %
+  :where 
+      [?b :block/marker ?active]
+      (not (psu-overdue ?b ?today))
+      (not (psu-not-started ?b ?today))
+      (not (psu-today ?b ?today))
+      (not (psu-next ?b ?today ?next-end))
+      (not (psu-new ?b ?new-start-days ?new-end-ts))
+]
+:inputs [:today :7d-after 2 :end-of-today-ms ["TODO" "DOING" "NOW" "LATER" "WAITING"]]
+:rules [
+    [(psu-not-started ?b ?start)
+        [?b :block/scheduled ?date]
+        [(<= ?date ?start)]
+    ]
+    [(psu-overdue ?b ?deadline)
+        (or
+            (and [?b :block/deadline ?date] [(< ?date ?deadline)])
+            (and [?b :block/scheduled ?date] [(< ?date ?deadline)])
+        )
+    ]
+    [(psu-today ?b ?today)
+        (or [?b :block/deadline ?date] [?b :block/scheduled ?date])
+        [(= ?date ?today)]
+    ]
+    [(psu-next ?b ?next-start ?next-end)
+        (or [?b :block/deadline ?date] [?b :block/scheduled ?date])
+        [(> ?date ?next-start)]
+        [(<= ?date ?next-end)]
+    ]
+    [(psu-new ?b ?new-start-days ?new-end-ts)
+        [?b :block/created-at ?ts]
+        [(* ?new-start-days 60 60 24 1000) ?range]
+        [(- ?new-end-ts ?range) ?period]
+        [(>= ?ts ?period)]
+        [(< ?ts ?new-end-ts)]
+    ]
+]
+:collapsed? true
+:breadcrumb-show? false
+}
+
+;; END OF default queries
+]
+}
