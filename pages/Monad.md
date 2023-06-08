@@ -1,3 +1,4 @@
 - [Monal Blog](https://blog.jcoglan.com/2011/03/05/translation-from-haskell-to-javascript-of-selected-portions-of-the-best-introduction-to-monads-ive-ever-read/)
 - Monads are really about composing functions
-- Monads only allow pure functions
+- Monads only allow pure functions (Function who have no side effect is called pure function. For example calling a database connection is side effect)
+-
