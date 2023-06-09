@@ -1,0 +1,31 @@
+{:title "⌛ On this day..."
+    :query [:find (pull ?b [*])
+       :in $ ?today
+       :where
+       [?b :block/page ?p]
+       [?p :page/journal? true]
+       [?p :page/journal-day ?jd]
+       [(str ?jd) ?jds]
+       [(subs ?jds 4 8) ?md1]
+       [(str ?today) ?td]
+       [(subs ?td 4 8) ?md2]
+       [(= ?md1 ?md2)]
+       [(< ?jd ?today)]
+	]
+	:inputs [:today]
+    :breadcrumb-show? true
+    :collapsed? False}
+   {:title "📅 NEXT"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?next
+            :where
+            [?h :block/marker ?marker]
+            [(contains? #{"NOW" "LATER" "TODO"} ?marker)]
+            [?h :block/page ?p]
+            [?p :block/journal? true]
+            [?p :block/journal-day ?d]
+            [(> ?d ?start)]
+            [(< ?d ?next)]]
+    :inputs [:today :7d-after]
+    :collapsed? false}
+]}
