@@ -2,8 +2,10 @@
 	- Make sure to set clear expectations on what employees will get out of training.
 - Average time to completion
 	- **Average time to completion** is a training efficiency KPI
-	-
+	- If it takes learners a long time to complete learning tracks, do some research to find out why. Maybe they’re not getting a lot of value from the training
 - Post-training assessment results
+	- **post-training assessment results** are an important KPI for training coordinators
+	-
 - Learner satisfaction rate
 - Learner retention rate
 - Training ROI
