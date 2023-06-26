@@ -5,7 +5,8 @@
 	- If it takes learners a long time to complete learning tracks, do some research to find out why. Maybe they’re not getting a lot of value from the training
 - Post-training assessment results
 	- **post-training assessment results** are an important KPI for training coordinators
-	-
 - Learner satisfaction rate
+	- Do your employees enjoy your training programs?
+	- employees are more likely to show up and pay attention in training that they’re satisfied with, that's where **learner satisfaction rate** comes in.
 - Learner retention rate
 - Training ROI
