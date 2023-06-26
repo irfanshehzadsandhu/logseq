@@ -1,6 +1,8 @@
 - Course completion rate
 	- Make sure to set clear expectations on what employees will get out of training.
 - Average time to completion
+	- **Average time to completion** is a training efficiency KPI
+	-
 - Post-training assessment results
 - Learner satisfaction rate
 - Learner retention rate
