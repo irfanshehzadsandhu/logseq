@@ -2,4 +2,4 @@
 - Post-training assessment results
 - Learner satisfaction rate
 - Learner retention rate
-- - Training ROI
+- Training ROI
