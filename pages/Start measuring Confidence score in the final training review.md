@@ -10,3 +10,11 @@
 	- employees are more likely to show up and pay attention in training that they’re satisfied with, that's where **learner satisfaction rate** comes in.
 - Learner retention rate
 - Training ROI
+-
+-
+-
+- ## Survey questions for trainee
+	- On a scale of 1 to 5, how satisfied are you with the training program?
+	- What did you like most about the training program?
+	- What areas do you think could be improved in the training program?
+	-
