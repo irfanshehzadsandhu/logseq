@@ -22,4 +22,7 @@
 	- Did the trainer effectively communicate the concepts and ideas?
 	- Did the training program's duration feel appropriate for the content covered?
 	- How confident do you feel in applying the knowledge and skills gained from the training program?
+	- Have you been able to apply what you learned in your work or daily life?
+	- Were your questions and concerns addressed adequately during the training program?
+	- Is there any other feedback or suggestions you would like to provide?
 	-
