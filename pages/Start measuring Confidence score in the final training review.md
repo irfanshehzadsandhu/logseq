@@ -17,4 +17,5 @@
 	- On a scale of 1 to 5, how satisfied are you with the training program?
 	- What did you like most about the training program?
 	- What areas do you think could be improved in the training program?
+	- Did you acquire new knowledge and skills through the training program?
 	-
