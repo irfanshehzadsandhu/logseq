@@ -18,4 +18,8 @@
 	- What did you like most about the training program?
 	- What areas do you think could be improved in the training program?
 	- Did you acquire new knowledge and skills through the training program?
+	- How helpful were the training materials (e.g., handouts, slides, videos)?
+	- Did the trainer effectively communicate the concepts and ideas?
+	- Did the training program's duration feel appropriate for the content covered?
+	- How confident do you feel in applying the knowledge and skills gained from the training program?
 	-
