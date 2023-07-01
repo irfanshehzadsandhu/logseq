@@ -26,3 +26,6 @@
 	- Were your questions and concerns addressed adequately during the training program?
 	- Is there any other feedback or suggestions you would like to provide?
 	-
+	-
+- here are a number of different evaluation metrics you can use to measure learner outcomes, such as: test scores, course completion rates,[job satisfaction,](https://www.simplilearn.com/ways-to-fall-in-love-with-your-job-again-article) and task performance.
+	-
