@@ -1,0 +1,5 @@
+- https://www.pluralsight.com/courses/javascript-getting-started
+- https://www.pluralsight.com/courses/javascript-promises-async-programming
+- https://www.pluralsight.com/courses/javascript-es6-object-oriented-programming
+- https://www.pluralsight.com/courses/javascript-generators-iterators
+- https://www.pluralsight.com/courses/nodejs-testing-strategies
