@@ -1,0 +1,3 @@
+- https://www.pluralsight.com/courses/react-fundamentals-update
+- https://www.pluralsight.com/courses/testing-react-applications-jest
+- https://www.pluralsight.com/courses/using-react-hooks
