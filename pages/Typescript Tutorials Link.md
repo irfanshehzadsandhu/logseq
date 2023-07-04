@@ -1,0 +1,2 @@
+- https://www.pluralsight.com/courses/typescript-creating-object-oriented-code
+- https://www.pluralsight.com/courses/typescript-generics-creating-using
