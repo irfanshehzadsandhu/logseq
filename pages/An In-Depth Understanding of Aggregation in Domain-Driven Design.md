@@ -1,1 +1,2 @@
-- This
+- This link shared by Hammad [An In-Depth Understanding of Aggregation in Domain-Driven Design](https://www.alibabacloud.com/blog/an-in-depth-understanding-of-aggregation-in-domain-driven-design_598034)
+-
