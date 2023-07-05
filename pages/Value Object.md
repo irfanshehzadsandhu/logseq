@@ -3,5 +3,6 @@
 - Its not a thing but it can be used to describe, quantify or measure an entity
 	- Can be used as an attribute of entity or other value objects
 	- Can be use to enforce constraints (invariants)
+- ### Consider email example in following link and uuid example in hexapp
 - [Read More](https://dev-portal.carbonteq.com/docs/BestPractices/Backend/architecture#value-object)
 -
