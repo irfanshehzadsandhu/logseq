@@ -5,3 +5,4 @@
 - ## Principles of Aggregation Partition
 	- Consistency of the Lifecycle
 	- Consistency of the Problem Domain
+		- Its more related to bounded context
