@@ -1,0 +1,1 @@
+- https://www.freecodecamp.org/news/database-normalization-1nf-2nf-3nf-table-examples/#:~:text=1NF%2C%202NF%2C%20and%203NF%20are,5NF%20(fifth%20normal%20form).
