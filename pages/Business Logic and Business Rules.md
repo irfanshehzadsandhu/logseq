@@ -1,5 +1,5 @@
 - ## Business Rules
-	- Business *rules* are a formal expression of business policy. For example: AddingVAT (value added tax)
+	- Business rules are a formal expression of business policy. For example: Adding VAT (value added tax) to invoice is business rule while business logic determines how this policy is implemented as a *process*.
 - Workflow
 	- Workflow is set of activities which are necessary to perform a certain task
 - Business Logic
