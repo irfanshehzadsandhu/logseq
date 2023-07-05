@@ -1,5 +1,5 @@
 - ## Business Rules
-	- Business rules are set of instructions and constraints which determine how a process is performed.
+	- Business rules are set of instructions and constraints which determine how a process is performed.Business *rules* are a formal expression of business policy
 - Workflow
 	- Workflow is set of activities which are necessary to perform a certain task
 - Business Logic
