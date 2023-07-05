@@ -1,3 +1,4 @@
 - Models a immutable conceptual whole.
 - It doesn't have a unique entity
+- Its not a thing but it can be used to describe, quantify or measure an entity
 -
