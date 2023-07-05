@@ -1,3 +1,4 @@
 - [[Business Logic and Business Rules]]
+- [[Value Object]]
 - [[Bounded Context]]
 -
