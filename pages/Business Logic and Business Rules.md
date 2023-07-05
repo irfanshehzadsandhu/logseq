@@ -3,7 +3,7 @@
 - Workflow
 	- Workflow is set of activities which are necessary to perform a certain task
 - Business Logic
-	- Business logic has two main components business rules and workflows
+	- Business logic determines how this policy is implemented as a *process*.
 - Domain model
 	- Currently I considered it as entity but in future i will dig it more
 	-
