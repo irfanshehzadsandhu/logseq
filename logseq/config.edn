@@ -4,21 +4,6 @@
 {
    :default-queries
    {:journals [
-     {
-      :title ["🗓 Scheduled" ]
-      :query [:find (pull ?b [*])
-        :in $ ?today
-        :where
-            [?b :block/marker ?marker]
-            [(contains? #{"LATER" "NOW" "TODO" "DOING" "WAITING"} ?marker)]
-            [?b :block/scheduled ?d]
-            [(<= ?d ?today)]
-      ]
-      :inputs [:today]
-      :result-transform (fn [result] (sort-by (fn [r] (get-in r [:block/page :block/journal-day])) result))  ; Sort by the journal date
-      :table-view? false
-      :breadcrumb-show? false
-      :collapsed? false
-    }
+     
    ]}
  }
