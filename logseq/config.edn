@@ -4,22 +4,21 @@
 {
    :default-queries
    {:journals [
-       {:title "⌛ On this day..."
-      :query [:find (pull ?b [*])
-         :in $ ?today
-         :where
-         [?b :block/page ?p]
-         [?p :page/journal? true]
-         [?p :page/journal-day ?jd]
-         [(str ?jd) ?jds]
-         [(subs ?jds 4 8) ?md1]
-         [(str ?today) ?td]
-         [(subs ?td 4 8) ?md2]
-         [(= ?md1 ?md2)]
-         [(< ?jd ?today)]
-      ]
-      :inputs [:today]
-      :breadcrumb-show? true
-      :collapsed? False}
+       {
+        :title ["🗓 Scheduled" ]
+        :query [:find (pull ?b [*])
+          :in $ ?today
+          :where
+              [?b :block/marker ?marker]
+              [(contains? #{"LATER" "NOW" "TODO" "DOING" "WAITING"} ?marker)]
+              [?b :block/scheduled ?d]
+              [(<= ?d ?today)]
+        ]
+        :inputs [:today]
+        :result-transform (fn [result] (sort-by (fn [r] (get-in r [:block/page :block/journal-day])) result))  ; Sort by the journal date
+        :table-view? false
+        :breadcrumb-show? false
+        :collapsed? false
+      }
    ]}
  }

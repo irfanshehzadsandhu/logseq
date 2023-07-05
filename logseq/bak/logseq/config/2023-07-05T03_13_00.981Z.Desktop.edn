@@ -1,0 +1,25 @@
+;; The app will show those queries in today's journal page,
+ ;; the "NOW" query asks the tasks which need to be finished "now",
+ ;; the "NEXT" query asks the future tasks.
+{
+   :default-queries
+   {:journals [
+       {:title "⌛ On this day..."
+      :query [:find (pull ?b [*])
+         :in $ ?today
+         :where
+         [?b :block/page ?p]
+         [?p :page/journal? true]
+         [?p :page/journal-day ?jd]
+         [(str ?jd) ?jds]
+         [(subs ?jds 4 8) ?md1]
+         [(str ?today) ?td]
+         [(subs ?td 4 8) ?md2]
+         [(= ?md1 ?md2)]
+         [(< ?jd ?today)]
+      ]
+      :inputs [:today]
+      :breadcrumb-show? true
+      :collapsed? False}
+   ]}
+ }
