@@ -1,4 +1,6 @@
 - Models a immutable conceptual whole.
 - It doesn't have a unique entity
 - Its not a thing but it can be used to describe, quantify or measure an entity
--
+	- Can be used as an attribute of entity or other value objects
+	- Can be use to enforce constraints (invariants)
+	-
