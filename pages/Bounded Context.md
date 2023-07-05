@@ -1,2 +1,2 @@
 - A bounded context is a logical concepts which separates the part of domain from the rest
--
+- [Reference](https://www.linkedin.com/advice/0/how-do-you-balance-consistency-autonomy)
