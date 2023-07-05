@@ -1,1 +1,3 @@
-- Models a
+- Models a immutable conceptual whole.
+- It doesn't have a unique entity
+-
