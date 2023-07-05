@@ -5,4 +5,5 @@
 - ## Principles of Aggregation Partition
 	- Consistency of the Lifecycle
 	- Consistency of the Problem Domain
-		- Its more related to bounded context
+		- Its more related to bounded context. Its says objects that do not belong to the same problem domain should not appear in the same aggregation. (Still need clarification)
+	-
