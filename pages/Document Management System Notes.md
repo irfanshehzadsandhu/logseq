@@ -1,6 +1,5 @@
 - [**Hammad Points discussion**](https://www.formkiq.com/)
-- [](https://www.formkiq.com/)
-- [](https://www.formkiq.com/)
+-
 - [**https://www.formkiq.com/**](https://www.formkiq.com/)
 - **Use Got instead of axios**
 - Proper typescript tutorials to Yamen and moazzam
