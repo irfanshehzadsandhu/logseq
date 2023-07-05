@@ -5,7 +5,7 @@
 - ## Principles of Aggregation Partition
 	- Consistency of the Lifecycle
 	- Consistency of the Problem Domain
-		- Its more related to bounded context. Its says objects that do not belong to the same problem domain should not appear in the same aggregation. (Still need clarification as example of article and comments is confusing)
+		- Its more related to bounded context. Its says objects that do not belong to the same problem domain should not appear in the same aggregation.
 	- Consistency of the Scenario Frequency (Still needs a clarification)
 	- As Few Elements as Possible within the Aggregation
 		- In this writer is taking approver id and submitter id as value objects and I am confused.
