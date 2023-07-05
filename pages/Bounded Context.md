@@ -1,0 +1,2 @@
+- A bounded context is a logical concepts which separates the part of domain from the rest
+-
