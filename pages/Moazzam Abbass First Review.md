@@ -33,7 +33,7 @@
 	- ## Rate the employee on how well they understood the business and whether they were able to add value to the business workflow or created clarity internally for team members
 		- I believe he has an ability to understand business and is able to add value to a business but he depressed  me while work with Musab Akram on navarino project. I think he communicated not well with him.
 	- ## Can you give an example of a time when they demonstrated proactiveness and ownership in their work? Do you feel they are an action-driven person?
-		- Moazzam lacks some proactiveness skills like
+		- Moazzam lacks some proactiveness skills like [Reference](https://climbtheladder.com/proactive-skills/)
 			- Anticipate future problem
 			- Time management
 				- Time management is the ability to use your time wisely and efficiently. It involves planning and scheduling your time, as well as setting goals and objectives.
