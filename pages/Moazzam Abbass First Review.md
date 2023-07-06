@@ -1,4 +1,5 @@
 - # [[Jul 7th, 2023]]
 	- ## Please discuss the employee along the lines of technical skills
 		- ### Core Engineering
-			- Moazzam has understanding of design patterns, lay
+			- Moazzam has understanding of design patterns, layered architecture, refactoring and Testing.
+			-
