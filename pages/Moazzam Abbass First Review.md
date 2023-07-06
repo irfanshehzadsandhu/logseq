@@ -1,5 +1,5 @@
 - # [[Jul 7th, 2023]]
-	- Before
+	- Before Starting review I want to share I have found moazzam very hard working and I believe he has a strong potential
 	- ## Please discuss the employee along the lines of technical skills
 		- ### Core Engineering
 			- Moazzam has understanding of design patterns, layered architecture, refactoring and Testing. He articulate his thoughts with me regularly.
