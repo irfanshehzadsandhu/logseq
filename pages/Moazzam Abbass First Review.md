@@ -3,5 +3,6 @@
 	- ## Please discuss the employee along the lines of technical skills
 		- ### Core Engineering
 			- Moazzam has understanding of design patterns, layered architecture, refactoring and Testing. He articulate his thoughts with me regularly.
-		-
+		- ### Deep Expertise
+			-
 			-
