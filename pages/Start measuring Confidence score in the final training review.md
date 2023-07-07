@@ -29,3 +29,9 @@
 	-
 - here are a number of different evaluation metrics you can use to measure learner outcomes, such as: test scores, course completion rates,[job satisfaction,](https://www.simplilearn.com/ways-to-fall-in-love-with-your-job-again-article) and task performance.
 	-
+	-
+- References
+	- [https://www.simplilearn.com/how-to-measure-effectiveness-corporate-training-article](https://www.simplilearn.com/how-to-measure-effectiveness-corporate-training-article)
+	- [https://whatfix.com/blog/post-training-survey-questions/](https://whatfix.com/blog/post-training-survey-questions/)
+	- [https://whatfix.com/blog/post-training-survey-questions/](https://whatfix.com/blog/post-training-survey-questions/)
+	-
