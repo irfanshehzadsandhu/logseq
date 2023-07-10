@@ -1,0 +1,20 @@
+- Why import is in js ? For example import { router as documentRoutes } from './Routes/Document.js' . Remove js
+- Also there are un used lines e.g import koaBody from 'koa-body';
+- What are these lines doing ? passport.use('jwt', jwtStrategy); and passport.use('refresh', refreshStrategy);
+- Why import CustomError from "../../Infrastructure/Error/CustomError.js"; is in custom Error ? Self RND on this point .
+- Remove console.log and use proper logger
+- Understand how await next(); works ?
+- What is AttachUserInfo?
+- Still tag route ?
+- Why we are not throwing error instead of this `return ctx.state.result = AppResult.Err(new errors.Unauthorized('Kindly check provided token'))`
+- There should be AppResult in GlobalResponseHandler
+- There should be separate dto file for each dto
+- What is zip.ts file in Utils/zip.ts
+- Why RedisClient in utils ?
+- Please verify all edge cases , Hammad is going to check
+-
+-
+-
+- Todo
+	- Review dependency injection code using container
+	-

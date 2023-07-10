@@ -1,0 +1,54 @@
+{:blocks (
+{:block/content "Why import is in js ? e.g import { router as documentRoutes } from './Routes/Document.js';"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "64ab516a-dca4-47af-b110-2f5fae19ab33"}
+:block/parent 
+{:block/uuid #uuid "64ab516a-dca4-47af-b110-2f5fae19ab33"}
+:block/properties 
+{}
+:block/uuid #uuid "64ab518b-6fbb-4049-9d07-3c228724f1b0"} 
+{:block/created-at 1688949151832
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "64ab518b-6fbb-4049-9d07-3c228724f1b0"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 89]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "338066a0-1eb9-11ee-b1a1-136c45b90aca"
+:noFill false
+:point [280 216]
+:parentId "64ab516a-dca4-47af-b110-2f5fae19ab33"
+:collapsedHeight 0
+:nonce 1688949127696}}
+:block/updated-at 1688949151832})
+:pages (
+{:block/uuid #uuid "64ab516a-dca4-47af-b110-2f5fae19ab33"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "64ab516a-dca4-47af-b110-2f5fae19ab33"
+:name "moazzam code review"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("338066a0-1eb9-11ee-b1a1-136c45b90aca")}}
+:block/updated-at 1688949151832
+:block/created-at 1688949098651
+:block/type "whiteboard"
+:block/name "moazzam code review"
+:block/original-name "moazzam code review"})}
