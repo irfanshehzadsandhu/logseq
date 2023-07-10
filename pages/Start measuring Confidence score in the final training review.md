@@ -33,5 +33,5 @@
 - References
 	- [https://www.simplilearn.com/how-to-measure-effectiveness-corporate-training-article](https://www.simplilearn.com/how-to-measure-effectiveness-corporate-training-article)
 	- [https://whatfix.com/blog/post-training-survey-questions/](https://whatfix.com/blog/post-training-survey-questions/)
-	- [https://whatfix.com/blog/post-training-survey-questions/](https://whatfix.com/blog/post-training-survey-questions/)
+	-
 	-
