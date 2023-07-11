@@ -9,4 +9,5 @@
 	- Consistency of the Scenario Frequency
 		- Objects that are often operated on at the same time often belong to the same aggregation. Generally, objects that receive very little attention at the same time should not be classified as the same aggregation. (Need another solid example other than this tutorial)
 	- As Few Elements as Possible within the Aggregation
-		- In this writer is taking approver id and submitter id as value objects and I am confused.
+		- In this writer is taking approver id and submitter id as value objects. Read [[Value Object]] one more time.
+		-
