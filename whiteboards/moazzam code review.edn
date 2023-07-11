@@ -1,5 +1,5 @@
 {:blocks (
-{:block/content "Why import is in js ? e.g import { router as documentRoutes } from './Routes/Document.js';"
+{:block/content ""
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "64ab516a-dca4-47af-b110-2f5fae19ab33"}
@@ -8,7 +8,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "64ab518b-6fbb-4049-9d07-3c228724f1b0"} 
-{:block/created-at 1688949151832
+{:block/created-at 1689037445612
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -24,7 +24,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 89]
+:size [400 41.00000636531487]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -33,8 +33,8 @@
 :point [280 216]
 :parentId "64ab516a-dca4-47af-b110-2f5fae19ab33"
 :collapsedHeight 0
-:nonce 1688949127696}}
-:block/updated-at 1688949151832})
+:nonce 1688949127698}}
+:block/updated-at 1689037445612})
 :pages (
 {:block/uuid #uuid "64ab516a-dca4-47af-b110-2f5fae19ab33"
 :block/properties 
@@ -47,7 +47,7 @@
 :nonce 1
 :assets []
 :shapes-index ("338066a0-1eb9-11ee-b1a1-136c45b90aca")}}
-:block/updated-at 1688949151832
+:block/updated-at 1689037446124
 :block/created-at 1688949098651
 :block/type "whiteboard"
 :block/name "moazzam code review"

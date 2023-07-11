@@ -1,0 +1,16 @@
+- ## Arslan Feeback
+	- Arslan trained Aden and Muzammil.
+		- Muzammil training got late because he started working on one reel project while training
+		- Aden completed his training on time
+- ## Mubasher Feedback
+	- Mubasher trained osama and he was kicked out from carbonteq due to behaviour issues
+- ## Bilal Faysal Feedback
+	- Bilal trained Muqarrab and got late because his final review not went well
+- ## Musab Akram Feedback
+	- Musab Akram trained Sana and Muqarrab
+	- Sana training met deadline but Muqarrab training got late due to his communication issues. He was not able to communicate properly in his final review
+- ## Irfan Shahzad Feedback
+	- I am training Moazzam
+	- Reasons for late
+		- Figuring out I think my architecture concepts were also not clear.
+		-

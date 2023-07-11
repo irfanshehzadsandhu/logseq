@@ -28,7 +28,7 @@
 - TODO Api version
 -
 -
--
+- nodemon --exec 'node --loader ts-node/esm' src/http/app.ts
 -
 -
 -
