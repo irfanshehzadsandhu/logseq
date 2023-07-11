@@ -14,3 +14,14 @@
 	- Reasons for late
 		- Figuring out I think my architecture concepts were also not clear.
 		-
+		-
+	- Reliability , efficiency (how much earlier)and effectiveness(How much good you are doing)
+		- Measure effectiveness
+		- Experience and background
+		- Ask trainee how much it will take them to complete training
+		- We can give 3 days time to engineering manager
+		-
+	-
+		-
+		-
+		-
