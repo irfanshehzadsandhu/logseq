@@ -1,0 +1,2 @@
+- Please read following [link](https://github.com/Sairyss/domain-driven-hexagon) after completing [[Domain Driven Design fundamentals]]
+-

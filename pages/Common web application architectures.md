@@ -16,7 +16,7 @@
 - # Clean Architecture
 	- Applications that follows [[Dependency Inversion Principle]] or domain driven design principles tend to arrive at a similar architecture [[Clean Architecture]] or Onion Architecture
 - Questions
-	- What are swapping out implementations?
+	- What are swapping out implementations? Means change requests
 	- Data Access Layer ?
 - Words and their meanings
 	- Non-trivial: significant
