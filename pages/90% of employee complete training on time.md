@@ -12,7 +12,7 @@
 - ## Irfan Shahzad Feedback
 	- I am training Moazzam
 	- Reasons for late
-		- Figuring out I think my architecture concepts were also not clear.
+		- Figuring out!!! I think my architecture concepts were also not clear.
 		-
 		-
 	- Reliability , efficiency (how much earlier)and effectiveness(How much good you are doing)

@@ -1,0 +1,15 @@
+- # Our goals for understanding the Domain
+	- Understand Client's Business
+	-
+- # Terms used in tutorial
+	- Interact with domain experts
+	- Separate sub domains for each problem
+	- Divide and conquer
+	- Mind Map
+	- Modeling: is an instance examination of problem space
+	- Anti corruption layer
+	- Ubiquitous language: Ubiquitous language is a set of unambiguous vocabulary shared by all members and stakeholders of a product team
+	- Domain Model
+	-
+	-
+	-
