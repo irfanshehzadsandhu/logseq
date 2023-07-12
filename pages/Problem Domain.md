@@ -1,0 +1,2 @@
+- I think Problem domain and [[Domain]] are same things
+-
