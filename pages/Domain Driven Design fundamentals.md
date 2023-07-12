@@ -1,5 +1,8 @@
 - # Our goals for understanding the Domain
-	- Understand Client's Business
+	- Understand Client's Business. Detail conversation with the domain expert
+	- Identify processes beyond project scope
+	- Look for subdomains we should include
+	- Look for subdomains we can ignore
 	-
 - # Terms used in tutorial
 	- Interact with domain experts

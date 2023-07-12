@@ -26,6 +26,10 @@
 	- return Result.Err(new errors.UserNotFound());
 	- }
 - TODO Api version
+- TODO What allowed methods are doing?
+- TODO look again into updateUser method of user service
+- TODO Why result.bind in user service?
+- TODO what LocalPersistence is doing in userService?
 -
 -
 -

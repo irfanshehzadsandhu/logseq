@@ -1,0 +1,3 @@
+- A domain refers to the characteristics of the problem which the proposed software is to solve.
+- Reference: [Link](https://www.spiceworks.com/tech/devops/articles/what-is-domain-driven-design/#:~:text=Domain%2Ddriven%20design%20(abbreviated%20as,proposed%20software%20is%20to%20solve.)
+-

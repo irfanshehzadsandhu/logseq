@@ -1,0 +1,4 @@
+- Domain model represents the knowledge and key concepts of problem domain. It can be a diagram , written documentation or even code examples.
+- The Domain Model should also define the vocabulary around the project and should act as a communication tool for everyone involved. The Ubiquitous Language is an extremely important concept in Domain Driven Design and so it should be directly derived from the Domain Model.
+- Reference: [Link](https://stackoverflow.com/questions/68463938/what-is-model-in-ddd)
+-
