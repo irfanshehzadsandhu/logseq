@@ -1,3 +1,4 @@
+- Reference: [Link](https://www.pluralsight.com/courses/fundamentals-domain-driven-design)
 - # Our goals for understanding the Domain
 	- Understand Client's Business. Detail conversation with the domain expert
 	- Identify processes beyond project scope
@@ -12,7 +13,8 @@
 	- Modeling: is an instance examination of problem space
 	- Anti corruption layer
 	- Ubiquitous language: Ubiquitous language is a set of unambiguous vocabulary shared by all members and stakeholders of a product team
-	- Domain Model
+	- [[Domain Model]]
+	-
 	-
 	-
 	-

@@ -1,0 +1,3 @@
+- A person with special knowledge or skills in a particular area of endeavor.
+- Endeavor meaning hard thing to do
+-
