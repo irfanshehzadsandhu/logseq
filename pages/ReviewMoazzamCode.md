@@ -2,34 +2,37 @@
 - DONE Bearer is still in token
 - DONE Also there are un used lines e.g import koaBody from 'koa-body';
 - DONE What are these lines doing ? passport.use('jwt', jwtStrategy); and passport.use('refresh', refreshStrategy); These are for access token generation and refresh token . This code still needs to be refactor (Understood)
-- TODO Why import CustomError from "../../Infrastructure/Error/CustomError.js"; is in custom Error ? Self RND on this point .
+- DONE Why import CustomError from "../../Infrastructure/Error/CustomError.js"; is in custom Error ? Self RND on this point .
 - DONE Remove console.log and use proper logger
 - DONE Understand how await next(); works ? [Reference](https://itnext.io/how-koa-middleware-works-f4386b5573c)
-- TODO What is AttachUserInfo? (A middleware/ But better solution)
+- DONE What is AttachUserInfo? (A middleware/ But better solution) Working on
+-
 - DONE Still tag route ?
-- TODO Why we are not throwing error instead of this `return ctx.state.result = AppResult.Err(new errors.Unauthorized('Kindly check provided token'))` (Self RND)
-- TODO There should be AppResult in GlobalResponseHandler. Need to look one more time (Self RND)
+- DONE Why we are not throwing error instead of this `return ctx.state.result = AppResult.Err(new errors.Unauthorized('Kindly check provided token'))` (Self RND)
+- DONE There should be AppResult in GlobalResponseHandler. Need to look one more time (Self RND)
 - TODO There should be separate dto file for each dto
 - DONE What is zip.ts file in Utils/zip.ts (Removed)
 - DONE Why RedisClient in utils ? (Removed)
 - DONE Document and tag relation (Use document as an aggregate root)
-- TODO Please verify all edge cases , Hammad is going to check
+- DONE Please verify all edge cases , Hammad is going to check
 - DONE There should be a seeds file
 - DONE There shouldn't be a password in a hash
 - DONE User is able to sign up with same credentials
 - DONE userControllerInstance should be userController
-- TODO Users Api has not pagination in users list
-- TODO Why there is auth service in infrastructure ? (Specific reason: )
+- DONE Users Api has not pagination in users list
+- DONE Why there is auth service in infrastructure ? (Specific reason: )
 - TODO Why there are createdAt and updatedAt in update function of userRepository ? (Ask Arslan)
-- TODO Need to refactor this . User constants or value objects
+- DONE Need to refactor this . User constants or value objects
 	- if (error.code === 'P2025') {
 	- return Result.Err(new errors.UserNotFound());
 	- }
-- TODO Api version
+- DONE Api version
 - TODO What allowed methods are doing?
-- TODO look again into updateUser method of user service
-- TODO Why result.bind in user service?
+- DONE look again into updateUser method of user service
+- DONE Why result.bind in user service?
 - TODO what LocalPersistence is doing in userService?
+- DONE Discuss tag crud
+-
 -
 -
 -
