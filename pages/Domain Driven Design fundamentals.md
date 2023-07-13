@@ -8,6 +8,7 @@
 - [#A] Listen to bounded context episode one more time. In that episode he is explaining client and billing bonded concepts
 	- Questions: According to Eric Evan Its ideal you should have a separate db for each bounded context but in real world if separate database is not possible you can separate them conceptually
 	-
+-
 	-
 - # Terms used in tutorial
 	- Interact with [[Domain Experts]]
@@ -18,6 +19,11 @@
 	- Anti corruption layer
 	- #Ubiquitiouslanguage
 	- [[Domain Model]]
+	- Difference between subdomain and bounded context? Eric evan gave an example of room and carpet.
+	- context map
+	- shared kernal
+	-
+	-
 	-
 	-
 	-

@@ -1,0 +1,18 @@
+- Add application.ts in config  (done)
+- Skeleton command (done)
+- Component command (done)
+- Move HTTP folder outside Application folder (done)
+- Remove entities folder (Done)
+- Remove status success (Done)
+- Rename paginationData to paginated data and move it to domain (done)
+- Create in entities (done)
+- Use helmet and x-powered-by (Done but learn later)
+- Inject into file app.ts and iocContainer (Done)
+- Logger interface in application layer (Done)
+- Proper readme file (Done)
+- Confusions
+- App result instead of http response (adaptor in infrastructure layer)
+- Error handling overall
+- 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
+- https://sergiodxa.com/articles/github-actions-npm-publish
+  https://github.com/marketplace/actions/npm-publish
