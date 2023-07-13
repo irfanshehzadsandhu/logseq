@@ -5,8 +5,12 @@
 	- Look for subdomains we should include
 	- Look for subdomains we can ignore
 	-
+- [#A] Listen to bounded context episode one more time. In that episode he is explaining client and billing bonded concepts
+	- Questions: According to Eric Evan Its ideal you should have a separate db for each bounded context but in real world if separate database is not possible you can separate them conceptually
+	-
+	-
 - # Terms used in tutorial
-	- Interact with domain experts
+	- Interact with [[Domain Experts]]
 	- Separate sub domains for each problem
 	- Divide and conquer
 	- Mind Map
@@ -14,6 +18,7 @@
 	- Anti corruption layer
 	- #Ubiquitiouslanguage
 	- [[Domain Model]]
+	-
 	-
 	-
 	-
