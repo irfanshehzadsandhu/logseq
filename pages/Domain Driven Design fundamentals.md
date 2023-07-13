@@ -10,9 +10,9 @@
 	- Separate sub domains for each problem
 	- Divide and conquer
 	- Mind Map
-	- Modeling: is an instance examination of problem space
+	- #Modeling
 	- Anti corruption layer
-	- Ubiquitous language: Ubiquitous language is a set of unambiguous vocabulary shared by all members and stakeholders of a product team
+	- #Ubiquitiouslanguage
 	- [[Domain Model]]
 	-
 	-

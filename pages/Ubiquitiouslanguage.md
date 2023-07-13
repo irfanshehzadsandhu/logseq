@@ -1,0 +1,1 @@
+- Ubiquitous language is a set of unambiguous vocabulary shared by all members and stakeholders of a product team
