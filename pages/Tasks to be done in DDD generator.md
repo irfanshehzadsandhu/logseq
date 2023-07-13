@@ -13,6 +13,5 @@
 - Confusions
 - App result instead of http response (adaptor in infrastructure layer)
 - Error handling overall
-- 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
 - https://sergiodxa.com/articles/github-actions-npm-publish
   https://github.com/marketplace/actions/npm-publish
