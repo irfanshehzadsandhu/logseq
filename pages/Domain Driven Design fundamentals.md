@@ -8,7 +8,14 @@
 - [#A] Listen to bounded context episode one more time. In that episode he is explaining client and billing bonded concepts
 	- Questions: According to Eric Evan Its ideal you should have a separate db for each bounded context but in real world if separate database is not possible you can separate them conceptually
 	-
--
+- # Elements of Domain Model
+	- Eric Evans definition of Domain Layer
+	- <ins>Responsible for representing concepts of the business, information about the business situation, and business rules. State that reflects the business situation is controlled and used here, even though the technical details of storing it are delegated to the infrastructure. This layer is the heart of business software.</ins>
+	- Comparing Anemic and Rich Domain Model
+		- The anemic domain model is described as **a programming anti-pattern where the domain objects contain little or no business logic like validations, calculations, rules, and so forth**.
+		- I think in my earlier projects I was only using anemic domain models
+		- I think anemic word is derived from #Anemia is **a condition in which the body does not have enough healthy red blood cells**.
+	-
 	-
 - # Terms used in tutorial
 	- Interact with [[Domain Experts]]
@@ -22,6 +29,10 @@
 	- Difference between subdomain and bounded context? Eric evan gave an example of room and carpet.
 	- context map
 	- shared kernal
+	- Event Modeling
+	- Modeling: In general, modelling is **describing (mathematically) a situation in reality for the purpose of solving a problem or question in that situation**. Modelling is both a way of working and a way of thinking. So modeling a problem mean writing solution for a given problem ? Discuss it with Arslan
+	-
+	-
 	-
 	-
 	-
