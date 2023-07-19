@@ -20,6 +20,7 @@
 		- Experience and background
 		- Ask trainee how much it will take them to complete training
 		- We can give 3 days time to engineering manager
+		- Reference: [https://www.simplilearn.com/how-to-measure-effectiveness-corporate-training-article](https://www.simplilearn.com/how-to-measure-effectiveness-corporate-training-article)
 		-
 	-
 		-
