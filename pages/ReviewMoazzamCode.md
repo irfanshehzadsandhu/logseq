@@ -10,7 +10,7 @@
 - DONE Still tag route ?
 - DONE Why we are not throwing error instead of this `return ctx.state.result = AppResult.Err(new errors.Unauthorized('Kindly check provided token'))` (Self RND)
 - DONE There should be AppResult in GlobalResponseHandler. Need to look one more time (Self RND)
-- TODO There should be separate dto file for each dto
+- DONE There should be separate dto file for each dto
 - DONE What is zip.ts file in Utils/zip.ts (Removed)
 - DONE Why RedisClient in utils ? (Removed)
 - DONE Document and tag relation (Use document as an aggregate root)
@@ -30,8 +30,12 @@
 - TODO What allowed methods are doing?
 - DONE look again into updateUser method of user service
 - DONE Why result.bind in user service?
-- TODO what LocalPersistence is doing in userService?
+- DONE what LocalPersistence is doing in userService?
 - DONE Discuss tag crud
+- TODO Trigger download on file url hit
+- TODO Link expiration
+- TODO If two users try to modify same document
+-
 -
 -
 -
