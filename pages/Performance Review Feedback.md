@@ -1,0 +1,10 @@
+- Hammad Feedback on my performance
+	- Problem Solving Skills need improvements
+		- Interpolate
+		- Explicitly Think
+		- Generic Solution of already applied knowledge
+	- Read Coaching habit book
+	- Compounding knowledge. Need to explore what it is
+	- Set Personal Goals
+	-
+	-
