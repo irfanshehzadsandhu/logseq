@@ -1,0 +1,9 @@
+- Links Hammad Shared
+	- https://www.metabase.com/glossary/sample_database
+	- https://www.metabase.com/glossary/query_builder
+	- https://github.com/zackyang000/node-odata/blob/master/examples/simple/index.js
+	- https://www.npmjs.com/package/odata
+	- https://www.odata.org/getting-started/learning-odata-on-postman/
+	- https://github.com/ukrbublik/react-awesome-query-builder/tree/master
+	- https://cloudtables.com/
+	-
