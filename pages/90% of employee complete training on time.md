@@ -22,7 +22,11 @@
 		- We can give 3 days time to engineering manager
 		- Reference: [https://www.simplilearn.com/how-to-measure-effectiveness-corporate-training-article](https://www.simplilearn.com/how-to-measure-effectiveness-corporate-training-article)
 		-
+- TODO
+	- Ask other engineering managers their reviews how they can complete training on time
+	- Track Evaluation Matrics
+	- The Kirkpatrick Evaluation Model
 	-
-		-
-		-
-		-
+	-
+	-
+	-
