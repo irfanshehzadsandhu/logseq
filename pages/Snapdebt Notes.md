@@ -5,3 +5,18 @@
   	root
   	Snapdebt123!@#
 -
+-
+-
+- # Steps to do on live DB before deploying to prod server
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      creditorClass = '18'
+	  WHERE
+	      creditorClass = 'commercial'
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      creditorClass = '17'
+	  WHERE
+	      creditorClass = 'consumer'
+	-
+	-
