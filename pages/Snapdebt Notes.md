@@ -5,6 +5,26 @@
   	root
   	Snapdebt123!@#
 -
+- # Agent Credentials
+	- Julian
+	- UN: [sales@snapdebtrecovery.com](mailto:sales@snapdebtrecovery.com) or Julian
+	- PW: Collect4U!
+	-
+	- Byonca
+	- UN: [admin@snapdebtrecovery.com](mailto:admin@snapdebtrecovery.com) or Byonca
+	- PW: Collect4U!
+	-
+	- Jasmine
+	- UN: [collections@snapdebtrecovery.com](mailto:collections@snapdebtrecovery.com) or Jasmine
+	- PW: Collect4U!
+	-
+	- Julier
+	- UN: [collector@snapdebtrecovery.com](mailto:collector@snapdebtrecovery.com) or Julier
+	- PW: Snapdebt_123!
+	-
+	- Amanda
+	- UN: [info@snapdebtrecovery.com](mailto:info@snapdebtrecovery.com) or Amanda
+	- PW: Action0727!!
 -
 -
 - # Steps to do on live DB before deploying to prod server
@@ -18,5 +38,49 @@
 	      creditorClass = '17'
 	  WHERE
 	      creditorClass = 'consumer'
-	-
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      clientType = '18'
+	  WHERE
+	      clientType = 'Commercial'
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      clientType = '17'
+	  WHERE
+	      clientType = 'Consumer'
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      clientType = '16'
+	  WHERE
+	      clientType = 'Unknown'
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      clientType = '19'
+	  WHERE
+	      clientType = 'Construction'
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      clientType = '02'
+	  WHERE
+	      clientType = 'Healthcare'
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      clientType = '01'
+	  WHERE
+	      clientType = 'Retail'
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      clientType = '09'
+	  WHERE
+	      clientType = 'Real Estate'
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      clientType = '16'
+	  WHERE
+	      clientType = 'Mixed'
+	- UPDATE snapdebt_prod.Clients 
+	  SET 
+	      clientType = '16'
+	  WHERE
+	      clientType = 'Government'
 	-
