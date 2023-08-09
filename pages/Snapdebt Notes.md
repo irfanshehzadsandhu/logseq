@@ -28,59 +28,62 @@
 -
 -
 - # Steps to do on live DB before deploying to prod server
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      creditorClass = '12'
-	  WHERE
-	      creditorClass = 'commercial'
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      creditorClass = '12'
-	  WHERE
-	      creditorClass = 'consumer'
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      clientType = '18'
-	  WHERE
-	      clientType = 'Commercial'
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      clientType = '17'
-	  WHERE
-	      clientType = 'Consumer'
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      clientType = '16'
-	  WHERE
-	      clientType = 'Unknown'
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      clientType = '19'
-	  WHERE
-	      clientType = 'Construction'
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      clientType = '02'
-	  WHERE
-	      clientType = 'Healthcare'
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      clientType = '01'
-	  WHERE
-	      clientType = 'Retail'
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      clientType = '09'
-	  WHERE
-	      clientType = 'Real Estate'
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      clientType = '16'
-	  WHERE
-	      clientType = 'Mixed'
-	- UPDATE snapdebt_prod.Clients 
-	  SET 
-	      clientType = '16'
-	  WHERE
-	      clientType = 'Government'
+	- ## Query Updates
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      creditorClass = '12'
+		  WHERE
+		      creditorClass = 'commercial'
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      creditorClass = '12'
+		  WHERE
+		      creditorClass = 'consumer'
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      clientType = '18'
+		  WHERE
+		      clientType = 'Commercial'
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      clientType = '17'
+		  WHERE
+		      clientType = 'Consumer'
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      clientType = '16'
+		  WHERE
+		      clientType = 'Unknown'
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      clientType = '19'
+		  WHERE
+		      clientType = 'Construction'
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      clientType = '02'
+		  WHERE
+		      clientType = 'Healthcare'
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      clientType = '01'
+		  WHERE
+		      clientType = 'Retail'
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      clientType = '09'
+		  WHERE
+		      clientType = 'Real Estate'
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      clientType = '16'
+		  WHERE
+		      clientType = 'Mixed'
+		- UPDATE snapdebt.Clients 
+		  SET 
+		      clientType = '16'
+		  WHERE
+		      clientType = 'Government'
+	- Fix Client Types and Creditor Class on live
+	-
 	-
