@@ -30,12 +30,12 @@
 - # Steps to do on live DB before deploying to prod server
 	- UPDATE snapdebt_prod.Clients 
 	  SET 
-	      creditorClass = '18'
+	      creditorClass = '12'
 	  WHERE
 	      creditorClass = 'commercial'
 	- UPDATE snapdebt_prod.Clients 
 	  SET 
-	      creditorClass = '17'
+	      creditorClass = '12'
 	  WHERE
 	      creditorClass = 'consumer'
 	- UPDATE snapdebt_prod.Clients 
