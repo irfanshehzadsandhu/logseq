@@ -13,10 +13,15 @@
 	- <ins>Responsible for representing concepts of the business, information about the business situation, and business rules. State that reflects the business situation is controlled and used here, even though the technical details of storing it are delegated to the infrastructure. This layer is the heart of business software.</ins>
 	- Comparing Anemic and Rich Domain Model
 		- The anemic domain model is described as **a programming anti-pattern where the domain objects contain little or no business logic like validations, calculations, rules, and so forth**.
+		- Anemic model focuses on state management.
 		- I think in my earlier projects I was only using anemic domain models
 		- I think anemic word is derived from #Anemia is **a condition in which the body does not have enough healthy red blood cells**.
+		- Why we are not using rich domain models?
 		- [#A] Entity should be build using single responsibility principle. Evan says their core responsibility is identity and life-cycle.  Discuss about life-cycle in detail with Arslan
 		-
+- # Understanding value objects and services in the Model
+	- How money is [[Value Object]] ?
+	- According to Evan date is a [[Value Object]]
 	-
 	-
 - # Terms used in tutorial

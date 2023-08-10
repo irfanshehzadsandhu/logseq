@@ -5,4 +5,9 @@
 	- Can be use to enforce constraints (invariants)
 - ### Consider email example in following link or uuid example in hexapp
 - [Read More](https://dev-portal.carbonteq.com/docs/BestPractices/Backend/architecture#value-object)
--
+- ### Characteristics
+	- Identity is based on composition of values
+	- Immutable
+	- Compared using all values
+	- No side effects
+	-
