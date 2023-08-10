@@ -1,0 +1,4 @@
+- Entities have identity and are mutable
+- Single Responsibility is a good principle to apply on entities
+- Base entity also holds list of domain events . will understand it when learning domain events
+-

@@ -84,6 +84,6 @@
 		      clientType = '16'
 		  WHERE
 		      clientType = 'Government'
-	- Fix Client Types and Creditor Class on live
+	-
 	-
 	-
