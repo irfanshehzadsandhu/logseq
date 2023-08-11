@@ -7,7 +7,10 @@
 - [Read More](https://dev-portal.carbonteq.com/docs/BestPractices/Backend/architecture#value-object)
 - ### Characteristics
 	- Identity is based on composition of values
+		- An immutable class whose identity is based on combination of its values
 	- Immutable
 	- Compared using all values
 	- No side effects
+	- In order to compare value objects we have to compare all of its properties
+	- They are used as property of an entity
 	-

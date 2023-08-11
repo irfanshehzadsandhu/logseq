@@ -21,7 +21,14 @@
 		-
 - # Understanding value objects and services in the Model
 	- How money is [[Value Object]] ?
-	- According to Evan date is a [[Value Object]]
+	- According to Evan date is a [[Value Object]].
+	- Vaughn Vernon's Guidance
+		- Is this a [[Value Object]]?
+		- Otherwise entity
+	- [[Value Object]] can be used as identifiers. I think in hexapp Arslan has introduced uuid as a value object
+	- SideEffects: Find good example of side effect
+	-
+	-
 	-
 	-
 - # Terms used in tutorial
