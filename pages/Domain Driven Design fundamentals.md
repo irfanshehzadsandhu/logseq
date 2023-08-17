@@ -8,7 +8,7 @@
 - [#A] Listen to bounded context episode one more time. In that episode he is explaining client and billing bonded concepts
 	- Questions: According to Eric Evan Its ideal you should have a separate db for each bounded context but in real world if separate database is not possible you can separate them conceptually
 	-
-- # Elements of Domain Model
+- # Elements of [[Domain Model]]
 	- Eric Evans definition of Domain Layer
 	- <ins>Responsible for representing concepts of the business, information about the business situation, and business rules. State that reflects the business situation is controlled and used here, even though the technical details of storing it are delegated to the infrastructure. This layer is the heart of business software.</ins>
 	- Comparing Anemic and Rich Domain Model
@@ -27,6 +27,7 @@
 		- Otherwise entity
 	- [[Value Object]] can be used as identifiers. I think in hexapp Arslan has introduced uuid as a value object
 	- SideEffects: Find good example of side effect
+- # Tackling Complexity with Aggregates
 	-
 	-
 	-

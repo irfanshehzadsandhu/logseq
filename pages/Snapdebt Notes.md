@@ -25,6 +25,10 @@
 	- Amanda
 	- UN: [info@snapdebtrecovery.com](mailto:info@snapdebtrecovery.com) or Amanda
 	- PW: Action0727!!
+- # Lariat Credentials
+	- amanda
+	  Action_123
+	  https://snap.lariatcentral.net
 -
 -
 - # Steps to do on live DB before deploying to prod server
