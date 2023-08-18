@@ -89,5 +89,105 @@
 		  WHERE
 		      clientType = 'Government'
 	-
+- # Query Engine Examples shared by amanda
+	- ```apl
+	  Hello,
+	  
+	   
+	  
+	  Below are just 3 examples. Please note the goal is to be able to create any report with the information. If the fields exist we should be able to pull it. Thanks please let me know if you need anything else.
+	  
+	   
+	  
+	  1. Rules would consist of:
+	  
+	   
+	  
+	  Client Name = HGS or Sagility Health Formally HGS Healthcare
+	  
+	  Status = PIF
+	  
+	  Agent/ Que = Closed
+	  
+	  Last Payment Received Between = OPEN DATE RANGE
+	  
+	  Date Submitted = 03/28/2022
+	  
+	   
+	  
+	  Fields
+	  
+	  Client Name
+	  
+	  Debtor ID
+	  
+	  Debt Status
+	  
+	  Agent/ Que
+	  
+	  Last Payment…..
+	  
+	  Date Submitted
+	  
+	   
+	  
+	  2. Client with Balances owed to SNAP:
+	  
+	   
+	  
+	  Rules would consist of:
+	  
+	   
+	  
+	  Client Name = OPEN RANGE
+	  
+	  Client Has Balance = Less than $0.00
+	  
+	   
+	  
+	  Fields
+	  
+	   
+	  
+	  Client Name
+	  
+	  Client Phone 1 Number
+	  
+	  Client Contact Name
+	  
+	  Client Balance
+	  
+	  Client ID
+	  
+	   
+	  
+	  3. SNAP Owes Client Balances:
+	  
+	   
+	  
+	  Rules would consist of:
+	  
+	   
+	  
+	  Client Name = OPEN RANGE
+	  
+	  Client Has Balance = Greater than $0.00
+	  
+	   
+	  
+	  Fields
+	  
+	   
+	  
+	  Client Name
+	  
+	  Client Balance
+	  
+	  Client ID
+	  
+	  Last Client Transaction Amount
+	  
+	  Last Client Transaction Date
+	  ```
 	-
 	-
