@@ -75,42 +75,7 @@
   STRIPE_SUBSCRIPTION_LINK=https://buy.stripe.com/5kA3f4eZN6H99TqdQQ
   
   
-  ALTER TABLE `moonrock`.`PaymentHistories` 
-  ADD COLUMN `lateFee` VARCHAR(225) NULL AFTER `deletedAt`,
-  ADD COLUMN `lateFeeType` VARCHAR(225) NULL AFTER `lateFee`,
-  ADD COLUMN `evictionNoticeDueDate` VARCHAR(45) NULL AFTER `lateFeeType`,
-  ADD COLUMN `evictionNoticeSent` TINYINT(1) NULL DEFAULT '0' AFTER `evictionNoticeDueDate`,
-  ADD COLUMN `evictionNoticeSentDate` DATETIME NULL AFTER `evictionNoticeSent`;
   
-  ALTER TABLE `moonrock`.`PaymentHistories` 
-  ADD COLUMN `rentDueDate` VARCHAR(225) NULL AFTER `evictionNoticeSentDate`;
-  
-  
-  ALTER TABLE `moonrock`.`RentInfos` 
-  ADD COLUMN `lateFee` VARCHAR(225) NULL AFTER `deletedAt`,
-  ADD COLUMN `lateFeeType` VARCHAR(225) NULL AFTER `lateFee`,
-  ADD COLUMN `evictionNoticeDueDate` VARCHAR(225) NULL AFTER `lateFeeType`;
-  
-  
-  
-  
-  
-  
-  UPDATE moonrock.PaymentHistories AS PH
-  INNER JOIN moonrock.RentInfos AS R ON R.propertyId = PH.propertyId
-  SET PH.rentDueDate = R.rentDueDate;
-  
-  SELECT 
-      *
-  FROM
-      moonrock.PaymentHistories
-  WHERE
-      rentDueDate IS NULL;
-  
-  UPDATE moonrock.PaymentHistories 
-  SET 
-      lateFee = 0 AND lateFeeType = 'Fixed'
-          AND evictionNoticeDueDate = 30;
   
   
   
