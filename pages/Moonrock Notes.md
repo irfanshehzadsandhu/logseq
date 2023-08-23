@@ -95,3 +95,6 @@
       "crashlytics_javascript_exception_handler_chaining_enabled": true
     }
   }
+-
+- # Java Version Issue Help
+	- https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-macos
