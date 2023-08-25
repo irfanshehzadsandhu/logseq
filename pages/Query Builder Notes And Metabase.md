@@ -14,4 +14,11 @@
 	- retool
 	- redash and retool ask users to write queries
 	-
+- # Metabase Notes
+	- Figure out how we will edit models once it created(http://localhost:3001/model/42-snapdebt-recovery/query)
+		- Clicking on edit query definition will redirect us to update model
+		- ![Screenshot 2023-08-25 at 10.04.36 PM.png](../assets/Screenshot_2023-08-25_at_10.04.36_PM_1692983143046_0.png)
+		-
+	- You can edit questions from our analytics tab
+	-
 	-
