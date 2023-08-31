@@ -31,6 +31,7 @@
 	  https://snap.lariatcentral.net
 - # Week 2 deployment notes
 	- On live db verify creditorClass should not be greater than 12 in db
+	- https://snapdebtrecovery.atlassian.net/browse/SV1-62
 	-
 	-
 -
