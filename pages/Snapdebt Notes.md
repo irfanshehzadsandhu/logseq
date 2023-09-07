@@ -25,6 +25,10 @@
 	- Amanda
 	- UN: [info@snapdebtrecovery.com](mailto:info@snapdebtrecovery.com) or Amanda
 	- PW: Action0727!!
+	-
+	- Client Portal
+	- UN: 1461
+	  PW: Action0727!!
 - # Lariat Credentials
 	- amanda
 	  Action_123
@@ -137,4 +141,6 @@
 	  Last Client Transaction Date
 	  ```
 	-
-	-
+	- RingCentral Test credentials
+		- {"jwt": "eyJraWQiOiI4NzYyZjU5OGQwNTk0NGRiODZiZjVjYTk3ODA0NzYwOCIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0.eyJhdWQiOiJodHRwczovL3BsYXRmb3JtLmRldnRlc3QucmluZ2NlbnRyYWwuY29tL3Jlc3RhcGkvb2F1dGgvdG9rZW4iLCJzdWIiOiI4MTYzODYwMDUiLCJpc3MiOiJodHRwczovL3BsYXRmb3JtLmRldnRlc3QucmluZ2NlbnRyYWwuY29tIiwiZXhwIjozODQxNDMxOTExLCJpYXQiOjE2OTM5NDgyNjQsImp0aSI6InpUbGtoa3p6VEhTOC10UDduQ3ZxQUEifQ.QWLsm1pDEtqAgkNSGOYua32eCqk8KXer0WfMmpJ_8vonM878laetlT7_CUXgVvEjRHAjzsV8YHbuuuwGpjXkQEPdSMLyoYCo5MQcHdhP-RwXjUyG5fGhbtUhStEPSJDkyhXYHl1azS_UmLm21oM_cJs6aIRPxv1uF-EgiJVCaD7JXcXR_iEBtVa0ZLzkU7D4C2hPYg60_f-uMGW_axQa3rLESgKRU3ylLoJ_lYFDWcz64t72qkV8rXqxk0P4DxhtAcnHq-6ezBm7oZwhsfuJlnNID-srUa1Sc8xHVd0jLamIAJA2ALKmuU8Xi5IuR2S-MfVL_I_EkybveuDRhzmrwg", "clientId": "6u5KBlZrrSFdVuDvFM7X1n", "clientSecret": "Z96w4j0zA8ScxSfEt2vxtfagDZ48mQ4XMbl42dtFIhvt"}
+	- {"apiKey": "slHVPl3LRxGEoSlV6DGQPQ", "account": "+14072147666", "password": "dIGGER42", "extension": "101", "secretKey": "AsXAOqPqRba8_9J1bfpP2wjtNOHL4vQkO3nZyRJc5H-A"}
