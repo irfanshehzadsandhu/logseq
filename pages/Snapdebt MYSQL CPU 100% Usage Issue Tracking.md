@@ -14,6 +14,7 @@
 	- ClientPhoneNumberRepository -> No complex query
 	- ClientRepository
 		- fetchAllClientsForAgency -> Needs optimization. Also I am using this query for dropdown which is making a lot of requests
+			- Main issue is in ClientFilter component on frontend
 		- fetchAllClientsForAgencyUserWithoutPagination -> Needs optimization , should include address in query instead of calling database in a separate query. Also check how many times this api is called.
 		- fetchAllClientsForAgencyUser -> Needs optimization ,should include address in query instead of calling database in a separate query. Also check how many times this api is called.
 		- fetchById -> Needs optimization, making database calls in PaymentDao.agencyOwesClient(), AgencyClientPaymentDao.agencyPaidPaymentsToClient(), AgencyClientPaymentDao.clientPaidPaymentsToAgency(). Also check how many times this api is called from frontend
@@ -50,8 +51,14 @@
 	- UserRepository
 		- fetchById . Check how many times this function is called as we are making separate db call to fetch agency details
 		- fetchByIdForReport. Check how many times this function is called as we are making separate db call to fetch agency details
+		- fetchById is called from auth middleware , use light query for that
+	- Debtor List query also need optimisation as there is a loop present in a query (done)
 		-
 		-
-		-
-		-
-		-
+- Important Notes
+	- Added agencyId index on debtors table CREATE INDEX ix_Debtors_agencyId ON snapdebt_prod.Debtors(agencyId);
+	- ![Screenshot 2023-09-19 at 4.56.21 PM.png](../assets/Screenshot_2023-09-19_at_4.56.21_PM_1695124683804_0.png)
+	- ![Screenshot 2023-09-19 at 4.56.51 PM.png](../assets/Screenshot_2023-09-19_at_4.56.51_PM_1695124698011_0.png)
+	-
+	-
+	-
