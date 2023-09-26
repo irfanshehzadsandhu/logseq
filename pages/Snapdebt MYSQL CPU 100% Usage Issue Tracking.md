@@ -1,6 +1,6 @@
-- DOING First check All Repositories and DAO. Find queries which might be taking time
+- DONE First check All Repositories and DAO. Find queries which might be taking time
   :LOGBOOK:
-  CLOCK: [2023-09-16 Sat 04:29:59]
+  CLOCK: [2023-09-16 Sat 04:29:59]--[2023-09-25 Mon 19:17:35] =>  230:47:36
   :END:
 	- AddressRepository -> No complex query
 	- AgencyClientPayment Repository -> No complex query
