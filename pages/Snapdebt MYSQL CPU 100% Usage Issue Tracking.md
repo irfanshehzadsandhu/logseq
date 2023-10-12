@@ -60,5 +60,9 @@
 	- ![Screenshot 2023-09-19 at 4.56.21 PM.png](../assets/Screenshot_2023-09-19_at_4.56.21_PM_1695124683804_0.png)
 	- ![Screenshot 2023-09-19 at 4.56.51 PM.png](../assets/Screenshot_2023-09-19_at_4.56.51_PM_1695124698011_0.png)
 	-
+- # Main Issues Were
+	- Notes tables had 10 lac rows so added index on it
+	- Refactor list of debtors query
+	- Simplify middleware User.fetch_by_id query
 	-
 	-
