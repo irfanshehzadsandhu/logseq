@@ -1,0 +1,1 @@
+- [Link](https://www.freecodecamp.org/news/the-this-keyword-in-javascript/)

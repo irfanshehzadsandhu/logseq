@@ -1,0 +1,1 @@
+- [Link](https://www.programiz.com/javascript/library/function/apply)
