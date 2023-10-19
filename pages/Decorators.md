@@ -1,0 +1,1 @@
+- [Link](https://medium.com/@victortoschi/using-decorators-in-javascript-e80674e4c6fa)
