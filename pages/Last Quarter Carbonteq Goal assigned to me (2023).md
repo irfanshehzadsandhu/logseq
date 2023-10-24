@@ -1,0 +1,5 @@
+- Github actions, one click deployment
+- centry and plugins
+- telemetry and drivers in hexapp
+- project kickoff
+-
