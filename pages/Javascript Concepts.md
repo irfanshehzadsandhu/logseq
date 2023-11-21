@@ -3,4 +3,5 @@
 - [[apply]]
 - [[this]]
 - [[JavaScript Execution Context]]
--
+- [[useMemo]]
+- [[useCallback]]
