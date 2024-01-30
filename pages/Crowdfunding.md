@@ -1,0 +1,3 @@
+- Crowdfunding is a way of raising money to finance projects and businesses. It enables fundraisers to **collect money from a large number of people via online platforms**.
+- [Read More](https://single-market-economy.ec.europa.eu/access-finance/guide-crowdfunding/what-crowdfunding/crowdfunding-explained_en)
+-
