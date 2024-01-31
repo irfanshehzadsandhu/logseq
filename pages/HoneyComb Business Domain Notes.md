@@ -17,7 +17,7 @@
 					- #### Credited Investor
 						- Investor will fill three questions for unlimited investment for 1 year
 					- #### Intermediaries
-						- Intermediatry will behave as a middle man for investment on behalf of businesses
+						- Intermediary will behave as a middle man for investment on behalf of businesses
 						  
 						  There are two profiles of him 1 - as an Investor and 2 - as an intermediatry
 						  Intermediary is also referred as an Entity.
@@ -28,7 +28,7 @@
 					  3 - Voided Check
 					- ##### Credit Card
 			- ### Owner
-				- Honeycomb support team will add owners. There is one column isBusinessUser in db and this flag helps us to identify owner has created a business in honeycomb or not
+				- Honeycomb support team will add owners. There is one column <ins>isBusinessUser</ins>  in db and this flag helps us to identify owner has created a business in honeycomb or not
 					- #### Primary Onwer
 					  Need to understand from fahad again
 					- #### Benefical Onwer
