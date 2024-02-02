@@ -32,7 +32,7 @@
 					- #### Primary Onwer
 					  Need to understand from fahad again
 					- #### Benefical Onwer
-					  If investment is more than 25%.
+					  If shares is more than 25%.
 				-
 				-
 				-
