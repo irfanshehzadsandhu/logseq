@@ -30,9 +30,52 @@
 			- ### Owner
 				- Honeycomb support team will add owners. There is one column <ins>isBusinessUser</ins>  in db and this flag helps us to identify owner has created a business in honeycomb or not
 					- #### Primary Onwer
-					  Need to understand from fahad again
+					  Need to understand from fahad again. ***Fahad will discuss it in more details***
 					- #### Benefical Onwer
 					  If shares is more than 25%.
 				-
-				-
-				-
+	- ## Business Module
+		- We also called it an issuer in our system.
+		- Types of legal entity of business
+			- LLC
+			- Corporation
+			- Partnership
+			- Sole Propertership ?
+		- How to add business in honeycomb?
+			- There is a service loanwell. FIle is exported from loanwell and it includes owner data, business data and campaign data
+			- One business has multiple onwers.  On production there is no use case in which single owner handles multiple business.
+			-
+			-
+	- ## Campaign Module
+		- Honeycomb will run campaigns of business.
+		- Business can have multiple campaigns
+		- Only one campaign is launched at a time
+			- While creating campaign following details are added
+				- Funding goals , set min and max funding goals
+				- time required to run campaign
+				- Types of campaign like quity, debt , convertable and offering type and note Can be found on admin panel.
+				- Campaign timezone
+				- Loan duration
+				- Campaign documents
+					- Note Purchase document. This document includes investment amount, repayment schedule, **Read documents for more details **
+						- FORM CU , FORM CA,Legal documents.
+						- These documents are submitted at different times during campaign and we are not saving any record in honeycomb system
+					- ***Its only debt revenue share and convertable note ?***
+					- ***Subscription Agreement ?***
+				- Repayment schedule
+					- Weekly
+					- Monthly
+					- Quartely
+				- Add media in campaign. Media can be youtube link or image
+					- No campign will go live unless media is added.
+				- Add relevant tags of campaign
+				- Use of funds in campaign details
+				- Campaign stages
+					- Onboarding
+					- Fund raising
+					- Funded - > min amount in net
+					- Not funded
+					- Fully Repaid
+	- ## Investment Module / Campaign fundings
+		-
+		-
