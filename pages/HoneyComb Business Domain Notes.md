@@ -21,6 +21,25 @@
 						  
 						  There are two profiles of him 1 - as an Investor and 2 - as an intermediatry
 						  Intermediary is also referred as an Entity.
+					- #### Investor Sign Up flow
+						- On sign up third party service ideology is used for KYC. For staging specific KYC info is used for approving . Fahad will share it
+						- Check KYC three times, if on third time if KYC is not approved, customer is redirected to upload documents page
+						- Honeycomb will pass KYC on admin Panel
+						- On successful KYC approval or on admin approval, following accounts are created
+							- On Dwaolla Two customers are created
+								- Personal
+								  Only personal customer account for virtual wallet is created for repayments  
+								  **HYBRID PAYMENTS **. Will discuss later
+								- Business
+							- USA EPAY
+								- Its a payment process
+								- Only Banks ACH payments are accepted on USA Epay. Also ***very check*** term is used by clients
+							- Stripe account
+								-
+					- Investor will attach bank account through PLAID
+						- ***Only bank account or stripe account at a time ***
+						-
+						-
 				- #### Payment Methods
 					- ##### Bank Account
 					  1 - Manual
