@@ -26,14 +26,14 @@
 						- Check KYC three times, if on third time if KYC is not approved, customer is redirected to upload documents page
 						- Honeycomb will pass KYC on admin Panel
 						- On successful KYC approval or on admin approval, following accounts are created
-							- On Dwaolla Two customers are created
+							- On Dwolla Two customers are created
 								- Personal
 								  Only personal customer account for virtual wallet is created for repayments  
 								  **HYBRID PAYMENTS **. Will discuss later
 								- Business
 							- USA EPAY
 								- Its a payment process
-								- Only Banks ACH payments are accepted on USA Epay. Also ***very check*** term is used by clients
+								- Only Banks ACH payments are accepted on USA Epay. Also ***veri check*** term is used by clients
 							- Stripe account
 								-
 					- Investor will attach bank account through PLAID
@@ -76,7 +76,7 @@
 				- Campaign timezone
 				- Loan duration
 				- Campaign documents
-					- Note Purchase document. This document includes investment amount, repayment schedule, **Read documents for more details **
+					- Note Purchase agreement. NPA is required. This document includes investment amount, repayment schedule, **Read documents for more details **
 						- FORM CU , FORM CA,Legal documents.
 						- These documents are submitted at different times during campaign and we are not saving any record in honeycomb system
 					- ***Its only debt revenue share and convertable note ?***
@@ -95,6 +95,11 @@
 					- Funded - > min amount in net
 					- Not funded
 					- Fully Repaid
+				- Requirements for campaign to go live
+					- Media should be added
+					- Use of funds details should be added
+					- Stage of campaign should be fund raising
+					-
 	- ## Investment Module / Campaign fundings
 		-
 		-
