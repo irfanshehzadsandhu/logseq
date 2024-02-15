@@ -29,7 +29,9 @@
 							- On Dwolla Two customers are created
 								- Personal
 								  Only personal customer account for virtual wallet is created for repayments  
-								  **HYBRID PAYMENTS **. Will discuss later
+								  **HYBRID PAYMENTS** Transaction from both wallet and bank. E.g 
+								  Minimum investment in campaign is $100. In hybrid there can be two transactions $50 from wallet and $50 from bank 
+								  Free charged will be on bank transaction only
 								- Business
 							- USA EPAY
 								- Its a payment process
@@ -101,5 +103,18 @@
 					- Stage of campaign should be fund raising
 					-
 	- ## Investment Module / Campaign fundings
-		-
-		-
+- # Points to ask from Fahad
+	- Accreditation? on user info
+	-
+- # HoneyComb links
+	- ## Staging
+		- [https://hcc-ap.honeycombcredit.com](https://hcc-ap.honeycombcredit.com)
+	- ## Live
+		- [https://invest.honeycombcredit.com/](https://invest.honeycombcredit.com/)
+- # Devops Notes
+	- POSTHOG
+	- LUCKY ORANGE
+	- SQL Injection Rules
+	- Cloud Armour
+	-
+	-
