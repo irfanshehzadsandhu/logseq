@@ -112,10 +112,7 @@
 	- ## Live
 		- [https://invest.honeycombcredit.com/](https://invest.honeycombcredit.com/)
 - # Devops Notes
-	- POSTHOG
-	- LUCKY ORANGE
-	- SQL Injection Rules
-	- Cloud Armour
+	-
 - # Pritunel Notes
 	- ## PIN
 		- PIN in saved in sticky notes
