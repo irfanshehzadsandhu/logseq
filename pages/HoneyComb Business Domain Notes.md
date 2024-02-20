@@ -116,5 +116,11 @@
 	- LUCKY ORANGE
 	- SQL Injection Rules
 	- Cloud Armour
+- # Pritunel Notes
+	- ## PIN
+		- PIN in saved in sticky notes
+		- PIN is upload in drive
+		-
+	-
 	-
 	-
