@@ -117,7 +117,7 @@
 	- ## PIN
 		- PIN in saved in sticky notes
 		- PIN is upload in drive
-		-
+		- https://www.instagram.com/p/B3U7KWYl55l/?hl=en
 	-
 	-
 	-
