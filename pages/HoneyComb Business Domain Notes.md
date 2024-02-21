@@ -104,7 +104,7 @@
 					-
 	- ## Investment Module / Campaign fundings
 - # Points to ask from Fahad
-	- Accreditation? on user info
+	-
 	-
 - # HoneyComb links
 	- ## Staging
