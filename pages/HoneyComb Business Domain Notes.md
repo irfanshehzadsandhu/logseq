@@ -103,6 +103,7 @@
 					- Stage of campaign should be fund raising
 					-
 	- ## Investment Module / Campaign fundings
+		-
 - # Points to ask from Fahad
 	-
 	-
@@ -116,8 +117,18 @@
 - # Pritunel Notes
 	- ## PIN
 		- PIN in saved in sticky notes
+		- 95100159
 		- PIN is upload in drive
 		- https://www.instagram.com/p/B3U7KWYl55l/?hl=en
 	-
+- # Honeycomb Business Flow Diagram
+	- [Google Drive Link](https://www.figma.com/file/hDLQH6XLupcDZF1trBPX3w/Honeycomb-Wallet---Dwolla-Integration-Flow?type=whiteboard&node-id=0-1&t=SHtyaoAcJq4NF5xM-0)
+- # Business Repayment
+	- Business transfer funds from business bank to wallet
+- # Investor Repayment
+	- Funds transfer from business wallet to business bank
+- # Types of Wallet
+	- Personal wallet
+	- Business wallet
 	-
 	-
