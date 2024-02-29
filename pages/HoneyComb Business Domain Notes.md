@@ -130,5 +130,6 @@
 - # Types of Wallet
 	- Personal wallet
 	- Business wallet
-	-
+- # Github build example in attachment
+	- ![Screenshot 2024-02-29 at 6.10.33 PM.png](../assets/Screenshot_2024-02-29_at_6.10.33 PM_1709216778319_0.png)
 	-
