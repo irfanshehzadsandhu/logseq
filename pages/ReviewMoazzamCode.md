@@ -27,14 +27,14 @@
 	- return Result.Err(new errors.UserNotFound());
 	- }
 - DONE Api version
-- TODO What allowed methods are doing?
+- DONE What allowed methods are doing?
 - DONE look again into updateUser method of user service
 - DONE Why result.bind in user service?
 - DONE what LocalPersistence is doing in userService?
 - DONE Discuss tag crud
-- TODO Trigger download on file url hit
-- TODO Link expiration
-- TODO If two users try to modify same document
+- DONE Trigger download on file url hit
+- DONE Link expiration
+- DONE If two users try to modify same document
 -
 -
 -
