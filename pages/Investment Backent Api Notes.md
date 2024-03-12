@@ -1,0 +1,12 @@
+# Tables involve
+	- User
+		- What is vcCustomerId?
+	- Campaign
+		- What is investmentType ?
+		- typeOfSecurityOffered?
+		- useOfProceeds?
+		- ncOffering?
+		- collateral?
+		- maturityDate?
+		- blanketLien?
+		-
