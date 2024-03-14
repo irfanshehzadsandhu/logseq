@@ -135,3 +135,4 @@
 - # Investment Code Notes
 	- [[Investment Backent Api Notes]]
 	- [[HoneyComb Config File]]
+	- [[honeycomb ERD diagram]]
