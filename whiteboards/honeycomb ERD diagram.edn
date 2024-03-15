@@ -588,7 +588,191 @@
 :nonce 1710430495188
 :italic false
 :text "many to many"}}
-:block/updated-at 1710430767798})
+:block/updated-at 1710430767798} 
+{:block/created-at 1710514795980
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 19
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [160 72]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Owner"
+:id "a958ddc0-e2dc-11ee-9036-7136e3d44da7"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [1016 592]
+:fontSize 20
+:parentId "65f318a7-36e8-4296-aa65-c0458caf9f2a"
+:nonce 1710430413534
+:italic false}}
+:block/updated-at 1710514795980} 
+{:block/created-at 1710514809726
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 20
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [160 72]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "IssuerOwner"
+:id "b101c5f0-e2dc-11ee-9036-7136e3d44da7"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [1016 432]
+:fontSize 20
+:parentId "65f318a7-36e8-4296-aa65-c0458caf9f2a"
+:nonce 1710430413671
+:italic false}}
+:block/updated-at 1710514809726} 
+{:block/created-at 1710514823580
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 21
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "ba2abe70-e2dc-11ee-9036-7136e3d44da7"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [1078.69 325.08]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [2.94 0]
+:bindingId nil}
+:end 
+{:id "end"
+:canBind true
+:point [0 102.92]
+:bindingId "bcb6e791-e2dc-11ee-9036-7136e3d44da7"}}
+:decorations 
+{:end "arrow"}
+:parentId "65f318a7-36e8-4296-aa65-c0458caf9f2a"
+:nonce 1710430582933
+:italic false}}
+:block/updated-at 1710514823580} 
+{:block/created-at 1710514834570
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 22
+:scale [1 1]
+:pageId "65f3192a-f05b-4a4a-9d8e-56565bc976a6"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [120 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c13d8120-e2dc-11ee-9036-7136e3d44da7"
+:noFill false
+:isLocked false
+:point [1104 352]
+:parentId "65f318a7-36e8-4296-aa65-c0458caf9f2a"
+:collapsedHeight 0
+:nonce 1710430506864}}
+:block/updated-at 1710514834570} 
+{:block/created-at 1710514855916
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 23
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c907fb10-e2dc-11ee-9036-7136e3d44da7"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [1091.52 512]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 79]
+:bindingId "d1f263f1-e2dc-11ee-9036-7136e3d44da7"}
+:end 
+{:id "end"
+:canBind true
+:point [4.48 0]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "65f318a7-36e8-4296-aa65-c0458caf9f2a"
+:nonce 1710430583273
+:italic false}}
+:block/updated-at 1710514855916} 
+{:block/created-at 1710514865524
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 24
+:scale [1 1]
+:pageId "65f3192a-f05b-4a4a-9d8e-56565bc976a6"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [120 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d51a09c0-e2dc-11ee-9036-7136e3d44da7"
+:noFill false
+:isLocked false
+:point [1128 528]
+:parentId "65f318a7-36e8-4296-aa65-c0458caf9f2a"
+:collapsedHeight 0
+:nonce 1710430506980}}
+:block/updated-at 1710514865524})
 :pages (
 {:block/uuid #uuid "65f318a7-36e8-4296-aa65-c0458caf9f2a"
 :block/properties 
@@ -597,35 +781,11 @@
 {:id "65f318a7-36e8-4296-aa65-c0458caf9f2a"
 :name "honeycomb erd diagram"
 :bindings 
-{:3fc96601-e218-11ee-9036-7136e3d44da7 
-{:id "3fc96601-e218-11ee-9036-7136e3d44da7"
-:type "line"
-:fromId "3fc96600-e218-11ee-9036-7136e3d44da7"
-:toId "375cdfb0-e218-11ee-9036-7136e3d44da7"
-:handleId "start"
-:point [0.5 0.5]
-:distance 4}
-:3fc9b420-e218-11ee-9036-7136e3d44da7 
+{:3fc9b420-e218-11ee-9036-7136e3d44da7 
 {:id "3fc9b420-e218-11ee-9036-7136e3d44da7"
 :type "line"
 :fromId "3fc96600-e218-11ee-9036-7136e3d44da7"
 :toId "3fc85490-e218-11ee-9036-7136e3d44da7"
-:handleId "end"
-:point [0.5 0.5]
-:distance 4}
-:5338d4f1-e218-11ee-9036-7136e3d44da7 
-{:id "5338d4f1-e218-11ee-9036-7136e3d44da7"
-:type "line"
-:fromId "5338d4f0-e218-11ee-9036-7136e3d44da7"
-:toId "3fc85490-e218-11ee-9036-7136e3d44da7"
-:handleId "start"
-:point [0.5 0.5]
-:distance 4}
-:53394a20-e218-11ee-9036-7136e3d44da7 
-{:id "53394a20-e218-11ee-9036-7136e3d44da7"
-:type "line"
-:fromId "5338d4f0-e218-11ee-9036-7136e3d44da7"
-:toId "53370030-e218-11ee-9036-7136e3d44da7"
 :handleId "end"
 :point [0.5 0.5]
 :distance 4}
@@ -645,6 +805,38 @@
 :handleId "start"
 :point [0.58 0.66]
 :distance 4}
+:5338d4f1-e218-11ee-9036-7136e3d44da7 
+{:id "5338d4f1-e218-11ee-9036-7136e3d44da7"
+:type "line"
+:fromId "5338d4f0-e218-11ee-9036-7136e3d44da7"
+:toId "3fc85490-e218-11ee-9036-7136e3d44da7"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:d016ed30-e2dc-11ee-9036-7136e3d44da7 
+{:id "d016ed30-e2dc-11ee-9036-7136e3d44da7"
+:type "line"
+:fromId "c907fb10-e2dc-11ee-9036-7136e3d44da7"
+:toId "b101c5f0-e2dc-11ee-9036-7136e3d44da7"
+:handleId "end"
+:point [0.73 0.87]
+:distance 4}
+:53394a20-e218-11ee-9036-7136e3d44da7 
+{:id "53394a20-e218-11ee-9036-7136e3d44da7"
+:type "line"
+:fromId "5338d4f0-e218-11ee-9036-7136e3d44da7"
+:toId "53370030-e218-11ee-9036-7136e3d44da7"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:3fc96601-e218-11ee-9036-7136e3d44da7 
+{:id "3fc96601-e218-11ee-9036-7136e3d44da7"
+:type "line"
+:fromId "3fc96600-e218-11ee-9036-7136e3d44da7"
+:toId "375cdfb0-e218-11ee-9036-7136e3d44da7"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
 :00fa5690-e219-11ee-9036-7136e3d44da7 
 {:id "00fa5690-e219-11ee-9036-7136e3d44da7"
 :type "line"
@@ -652,11 +844,28 @@
 :toId "375cdfb0-e218-11ee-9036-7136e3d44da7"
 :handleId "end"
 :point [0.49 0.38]
+:distance 4}
+:bcb6e791-e2dc-11ee-9036-7136e3d44da7 
+{:id "bcb6e791-e2dc-11ee-9036-7136e3d44da7"
+:type "line"
+:fromId "ba2abe70-e2dc-11ee-9036-7136e3d44da7"
+:toId "b101c5f0-e2dc-11ee-9036-7136e3d44da7"
+:handleId "end"
+:point [0.39 0.51]
+:distance 4}
+:d1f263f1-e2dc-11ee-9036-7136e3d44da7 
+{:id "d1f263f1-e2dc-11ee-9036-7136e3d44da7"
+:type "line"
+:fromId "c907fb10-e2dc-11ee-9036-7136e3d44da7"
+:toId "a958ddc0-e2dc-11ee-9036-7136e3d44da7"
+:handleId "start"
+:point [0.46 0.53]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("375cdfb0-e218-11ee-9036-7136e3d44da7" "3fc85490-e218-11ee-9036-7136e3d44da7" "3fc96600-e218-11ee-9036-7136e3d44da7" "53370030-e218-11ee-9036-7136e3d44da7" "5338d4f0-e218-11ee-9036-7136e3d44da7" "6836ac10-e218-11ee-9036-7136e3d44da7" "6f007ee0-e218-11ee-9036-7136e3d44da7" "841fc0b0-e218-11ee-9036-7136e3d44da7" "9c40d0d0-e218-11ee-9036-7136e3d44da7" "a6a44520-e218-11ee-9036-7136e3d44da7" "b4784f20-e218-11ee-9036-7136e3d44da7" "c2d53830-e218-11ee-9036-7136e3d44da7" "cb3b07c0-e218-11ee-9036-7136e3d44da7" "d75db840-e218-11ee-9036-7136e3d44da7" "dd68cef0-e218-11ee-9036-7136e3d44da7" "e81cad30-e218-11ee-9036-7136e3d44da7" "fb94a7a0-e218-11ee-9036-7136e3d44da7" "00fa5691-e219-11ee-9036-7136e3d44da7" "062a9da0-e219-11ee-9036-7136e3d44da7")}}
-:block/updated-at 1710430814399
+:shapes-index ("375cdfb0-e218-11ee-9036-7136e3d44da7" "3fc85490-e218-11ee-9036-7136e3d44da7" "3fc96600-e218-11ee-9036-7136e3d44da7" "53370030-e218-11ee-9036-7136e3d44da7" "5338d4f0-e218-11ee-9036-7136e3d44da7" "6836ac10-e218-11ee-9036-7136e3d44da7" "6f007ee0-e218-11ee-9036-7136e3d44da7" "841fc0b0-e218-11ee-9036-7136e3d44da7" "9c40d0d0-e218-11ee-9036-7136e3d44da7" "a6a44520-e218-11ee-9036-7136e3d44da7" "b4784f20-e218-11ee-9036-7136e3d44da7" "c2d53830-e218-11ee-9036-7136e3d44da7" "cb3b07c0-e218-11ee-9036-7136e3d44da7" "d75db840-e218-11ee-9036-7136e3d44da7" "dd68cef0-e218-11ee-9036-7136e3d44da7" "e81cad30-e218-11ee-9036-7136e3d44da7" "fb94a7a0-e218-11ee-9036-7136e3d44da7" "00fa5691-e219-11ee-9036-7136e3d44da7" "062a9da0-e219-11ee-9036-7136e3d44da7" "a958ddc0-e2dc-11ee-9036-7136e3d44da7" "b101c5f0-e2dc-11ee-9036-7136e3d44da7" "ba2abe70-e2dc-11ee-9036-7136e3d44da7" "c13d8120-e2dc-11ee-9036-7136e3d44da7" "c907fb10-e2dc-11ee-9036-7136e3d44da7" "d51a09c0-e2dc-11ee-9036-7136e3d44da7")}}
+:block/journal? false
+:block/updated-at 1710514865524
 :block/created-at 1710430375044
 :block/type "whiteboard"
 :block/name "honeycomb erd diagram"
