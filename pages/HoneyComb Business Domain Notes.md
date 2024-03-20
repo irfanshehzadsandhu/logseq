@@ -1,7 +1,7 @@
 - HoneyComb is a [[Crowdfunding]] platform. There is a pool of investors and pool of businesses and honeycomb is acting like broker between them.
 - # Business Domain
 	- ## User Module
-		- User can be an **Investor** and **owner**.
+		- User can be an **Investor** and **owner**. User can be both at a time
 			- ### Investor
 				- Investor is classified into three categories
 					- #### Non Credited Investor
