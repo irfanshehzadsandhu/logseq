@@ -143,4 +143,6 @@
 	- [[honeycomb ERD diagram]]
 	- [[Tables Involve In Investment]]
 	- [HoneyComb Staging Data Drive link](https://docs.google.com/document/d/1WJEYP27L8bQlHReOpuAZ_5ogw5ojnQGG9Zn_iVzf8KE/edit)
+- Home Ip
+	- 182.181.190.56
 	-
