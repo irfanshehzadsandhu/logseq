@@ -153,4 +153,7 @@
 	- ## WEB APP
 		- v14.21.3 -> yarn dev
 		-
-		-
+- # Honeycomb Devops Issue
+	- ![Screenshot 2024-04-23 at 9.38.25 PM.png](../assets/Screenshot_2024-04-23_at_9.38.25 PM_1713970238246_0.png)
+	-
+	-
