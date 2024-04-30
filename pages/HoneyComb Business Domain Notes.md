@@ -145,6 +145,7 @@
 	- [HoneyComb Staging Data Drive link](https://docs.google.com/document/d/1WJEYP27L8bQlHReOpuAZ_5ogw5ojnQGG9Zn_iVzf8KE/edit)
 - Home Ip
 	- 182.181.249.150
+	- 182.181.135.222
 - # Node Versions
 	- ## Backend API
 		- v12.22.12
@@ -156,4 +157,6 @@
 - # Honeycomb Devops Issue
 	- ![Screenshot 2024-04-23 at 9.38.25 PM.png](../assets/Screenshot_2024-04-23_at_9.38.25 PM_1713970238246_0.png)
 	-
+- # Low Usage Time
+	- 12pm to 3pm EST  -> Minimum Traffic -> 2am to 7am
 	-
