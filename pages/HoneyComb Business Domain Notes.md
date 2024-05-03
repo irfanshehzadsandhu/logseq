@@ -159,4 +159,6 @@
 	-
 - # Low Usage Time
 	- 12pm to 3pm EST  -> Minimum Traffic -> 2am to 7am
+- Rayments Link
+	- [https://www.figma.com/file/YF7zqNwBNAKsoRNtqGk0Fa/HC-1897-Self-service-payment-management?type=design&node-id=0-1&mode=design&t=kWNnfsqYJFpgt4SS-0](https://www.figma.com/file/YF7zqNwBNAKsoRNtqGk0Fa/HC-1897-Self-service-payment-management?type=design&node-id=0-1&mode=design&t=kWNnfsqYJFpgt4SS-0)
 	-
