@@ -144,8 +144,7 @@
 	- [[Tables Involve In Investment]]
 	- [HoneyComb Staging Data Drive link](https://docs.google.com/document/d/1WJEYP27L8bQlHReOpuAZ_5ogw5ojnQGG9Zn_iVzf8KE/edit)
 - Home Ip
-	- 182.181.249.150
-	- 182.181.135.222
+	- 182.181.226.249
 - # Node Versions
 	- ## Backend API
 		- v12.22.12
@@ -161,4 +160,7 @@
 	- 12pm to 3pm EST  -> Minimum Traffic -> 2am to 7am
 - Rayments Link
 	- [https://www.figma.com/file/YF7zqNwBNAKsoRNtqGk0Fa/HC-1897-Self-service-payment-management?type=design&node-id=0-1&mode=design&t=kWNnfsqYJFpgt4SS-0](https://www.figma.com/file/YF7zqNwBNAKsoRNtqGk0Fa/HC-1897-Self-service-payment-management?type=design&node-id=0-1&mode=design&t=kWNnfsqYJFpgt4SS-0)
+- HC-2425
+	- Schedule for future
+	- e.g loan term of 36 months
 	-
