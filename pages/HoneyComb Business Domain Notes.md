@@ -163,4 +163,7 @@
 - HC-2425
 	- Schedule for future
 	- e.g loan term of 36 months
--
+- # Honeycomb Testing account
+	- pehapo4264@huleos.com
+	- Honeycomb123!@#
+	-
