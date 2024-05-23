@@ -1,0 +1,11 @@
+- Streaming
+- actor model
+- level db
+- concurreny model
+- grpc
+- Cascading failures
+- overhead
+- effective
+-
+- kubernetes-> part
+-
