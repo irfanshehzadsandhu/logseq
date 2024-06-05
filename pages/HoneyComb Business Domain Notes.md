@@ -145,6 +145,7 @@
 	- [HoneyComb Staging Data Drive link](https://docs.google.com/document/d/1WJEYP27L8bQlHReOpuAZ_5ogw5ojnQGG9Zn_iVzf8KE/edit)
 - Home Ip
 	- 182.181.211.9
+	- 34.139.241.15
 - # Node Versions
 	- ## Backend API
 		- v12.22.12
@@ -166,4 +167,9 @@
 - # Honeycomb Testing account
 	- pehapo4264@huleos.com
 	- Honeycomb123!@#
+- # HELM SECRETS COMMANDS
+	- gcloud auth application-default login
+	- Credentials saved to file: [/.../.config/gcloud/application_default_credentials.json]
+	- helm secrets view secrets.yaml
+	- helm secrets edit secrets.yaml
 	-
