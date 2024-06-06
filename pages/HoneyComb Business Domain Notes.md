@@ -172,4 +172,6 @@
 	- Credentials saved to file: [/.../.config/gcloud/application_default_credentials.json]
 	- helm secrets view secrets.yaml
 	- helm secrets edit secrets.yaml
+- # Recapchata Notes
+	- https://console.cloud.google.com/security/recaptcha?project=honeycomb-production-327513
 	-
