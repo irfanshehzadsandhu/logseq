@@ -174,4 +174,4 @@
 	- helm secrets edit secrets.yaml
 - # Recapchata Notes
 	- https://console.cloud.google.com/security/recaptcha?project=honeycomb-production-327513
-	-
+- /Users/irfanshahzad/Workspace/honeycomb-api/honeycomb-staging-key.json
