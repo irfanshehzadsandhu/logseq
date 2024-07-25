@@ -174,3 +174,6 @@
 - # Recapchata Notes
 	- https://console.cloud.google.com/security/recaptcha?project=honeycomb-production-327513
 - /Users/irfanshahzad/Workspace/honeycomb-api/honeycomb-staging-key.json
+- # Q3 Goals
+	- https://docs.google.com/document/d/1IIGsZ_tsU4HqpLZmdy9AagMyz-r0I2QTj1E_fC12qQc/edit
+	-
