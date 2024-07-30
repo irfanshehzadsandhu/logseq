@@ -5,3 +5,6 @@
 - [[JavaScript Execution Context]]
 - [[useMemo]]
 - [[useCallback]]
+- [[Closure]]
+- [[Currying]]
+-

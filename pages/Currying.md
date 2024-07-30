@@ -1,0 +1,3 @@
+- It doesn't call a function rather it transforms it
+- [https://javascript.info/currying-partials](https://javascript.info/currying-partials)
+-
