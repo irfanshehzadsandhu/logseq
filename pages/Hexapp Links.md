@@ -1,0 +1,12 @@
+- [https://www.youtube.com/watch?v=ENo_B8CZNRQ](https://www.youtube.com/watch?v=ENo_B8CZNRQ)
+- [https://medium.com/raa-labs/part-1-domain-driven-design-like-a-pro-f9e78d081f10](https://medium.com/raa-labs/part-1-domain-driven-design-like-a-pro-f9e78d081f10)
+- [https://medium.com/@albert.llousas/building-modern-architectures-functional-core-imperative-shell-revamp-0bb5ae62b589](https://medium.com/@albert.llousas/building-modern-architectures-functional-core-imperative-shell-revamp-0bb5ae62b589)
+- [https://doordash.engineering/2022/07/26/functional-core-imperative-shell-using-structured-concurrency-to-write-maintainable-grpc-endpoints-in-kotlin/](https://doordash.engineering/2022/07/26/functional-core-imperative-shell-using-structured-concurrency-to-write-maintainable-grpc-endpoints-in-kotlin/)
+- [https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/)
+- [https://doc.rust-lang.org/std/result/](https://doc.rust-lang.org/std/result/)
+- [https://doc.rust-lang.org/std/option/](https://doc.rust-lang.org/std/option/)
+- [https://www.typescriptlang.org/docs/handbook/utility-types.html](https://www.typescriptlang.org/docs/handbook/utility-types.html)
+- [https://www.typescriptlang.org/docs/handbook/2/types-from-types.html](https://www.typescriptlang.org/docs/handbook/2/types-from-types.html)
+- [https://enterprisecraftsmanship.com/posts/functional-c-primitive-obsession/](https://enterprisecraftsmanship.com/posts/functional-c-primitive-obsession/)
+- [https://www.youtube.com/watch?v=jwCW446hoPk](https://www.youtube.com/watch?v=jwCW446hoPk)
+-
