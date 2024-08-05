@@ -131,7 +131,7 @@
 - # Business Repayment
 	- Business transfer funds from business bank to wallet
 - # Investor Repayment
-	- Funds transfer from business wallet to business bank
+	- Funds transfer from investor wallet to business bank
 - # Types of Wallet
 	- Personal wallet
 	- Business wallet
@@ -145,6 +145,8 @@
 	- [HoneyComb Staging Data Drive link](https://docs.google.com/document/d/1WJEYP27L8bQlHReOpuAZ_5ogw5ojnQGG9Zn_iVzf8KE/edit)
 - Home Ip
 	- 39.38.239.52
+	- 182.176.4.155
+	-
 	-
 - # Node Versions
 	- ## Backend API
@@ -177,4 +179,6 @@
 - /Users/irfanshahzad/Workspace/honeycomb-api/honeycomb-staging-key.json
 - # Q3 Goals
 	- https://docs.google.com/document/d/1IIGsZ_tsU4HqpLZmdy9AagMyz-r0I2QTj1E_fC12qQc/edit
+- ## FireBase file path for my local machine
+	- /Users/irfanshahzad/Workspace/honeycomb-api/honeycomb-firebase-staging-adminsdk.json
 	-
