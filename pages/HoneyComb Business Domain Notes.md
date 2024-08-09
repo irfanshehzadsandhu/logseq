@@ -181,4 +181,6 @@
 	- https://docs.google.com/document/d/1IIGsZ_tsU4HqpLZmdy9AagMyz-r0I2QTj1E_fC12qQc/edit
 - ## FireBase file path for my local machine
 	- /Users/irfanshahzad/Workspace/honeycomb-api/honeycomb-firebase-staging-adminsdk.json
-	-
+- ## Honeycomb Mobile Testing Account for App Store
+	- [joe+testaccount@honeycombcredit.com](mailto:joe+testaccount@honeycombcredit.com)
+	  Honeycomb@7194!
