@@ -183,3 +183,11 @@
 - ## Honeycomb Mobile Testing Account for App Store
 	- [joe+testaccount@honeycombcredit.com](mailto:joe+testaccount@honeycombcredit.com)
 	  Honeycomb@7194!
+- ##  Frontend App Temp Issue Fix
+- ```export async function getServerSideProps() {
+   export async function getServerSideProps() {
+    return {
+      props: {},
+    };
+  }
+  ```
