@@ -1,0 +1,9 @@
+- Federal Funds Target Rate -> Interest Rate set by federal funds target rate
+- Currently rate is static for 36 months. -> Explore this thing in code also
+- There will be floor & ceiling value for interest rate
+- It will not effect investment flow but will effect repayments
+- What is annual interest rate?
+- Think about Business Payment Schedule
+- Think about Investor Repayment Schedule.
+- Explore investment types other than debt
+-
