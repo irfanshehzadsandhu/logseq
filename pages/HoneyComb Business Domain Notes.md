@@ -144,8 +144,7 @@
 	- [[Tables Involve In Investment]]
 	- [HoneyComb Staging Data Drive link](https://docs.google.com/document/d/1WJEYP27L8bQlHReOpuAZ_5ogw5ojnQGG9Zn_iVzf8KE/edit)
 - Home Ip
-	- 39.34.101.98
-	-
+	- 39.48.45.20
 	-
 - # Node Versions
 	- ## Backend API
@@ -183,6 +182,47 @@
 - ## Honeycomb Mobile Testing Account for App Store
 	- [joe+testaccount@honeycombcredit.com](mailto:joe+testaccount@honeycombcredit.com)
 	  Honeycomb@7194!
+- ```apl
+  select @email := 'andy.somerville@gmail.com';
+  select @campaignName := 'Harvie';
+  select @amount := 1000;
+  select @fee := 0;
+  select @tradeId := 422025927;
+  select @refrenceNumber := NULL;
+  select @transactionType := 'ACH';
+  select @dwollaTransactionId := NULL;
+  select @individualACHId := NULL;
+  
+  # internal IDs.
+  select @chargeId := UUID();
+  select @campaignFundId := UUID();
+  select @hybridTransactionId := UUID();
+  select @now := NOW();
+  
+  select investorId, annualIncome, netWorth, isAccredited into @investorId,  @annualIncome,  @netWorth,  @isAccredited from users u join investors i on u.userId=i.userId where email=@email and i.deletedAt is null;
+  select campaignId, typeOfSecurityOffered into @campaignId, @typeOfSecurityOffered from campaigns where campaignName = @campaignName and deletedAt is null;
+  
+  insert into charges(chargeId, chargeType, dwollaChargeId, chargeStatus, applicationFee, createdAt, `updatedAt`) values(@chargeId, 'transfer', 0, 'pending', @fee, @now, @now);
+  insert into campaignFunds(campaignFundId, amount, investorAccreditationStatus, investorNetWorth, investorAnnualIncome, investmentType, createdAt, updatedAt, campaignId, investorId, chargeId)
+  values(@campaignFundId, @amount, @isAccredited, @netWorth, @annualIncome, @typeOfSecurityOffered, @now, @now, @campaignId, @investorId, @chargeId);
+  
+  insert into hybridTransactions(hybridTransactionId, amount, transactionType, refrenceNumber, dwollaTransactionId, individualACHId, createdAt, updatedAt, campaignFundId, applicationFee,tradeId)
+  values(@hybridTransactionId, @amount, @transactionType, @refrenceNumber, @dwollaTransactionId, @individualACHId, @now, @now, @campaignFundId, @fee,@tradeId);
+  select @chargeId, @campaignFundId, @hybridTransactionId;
+  ```
+- ## Mobile Configuration Code
+- ```apl
+      // After Mobile Promotion , we will remove this logic
+      if (isMobilePlatform) {
+        globalConfiguration['configuration']['ACH']['feeCap'] = 0;
+        globalConfiguration['configuration']['ACH']['transactionFeeVarriable'] = 0;
+        globalConfiguration['configuration']['HYBRID']['feeCap'] = 0;
+        globalConfiguration['configuration']['HYBRID']['transactionFeeVarriable'] = 0;
+        globalConfiguration['configuration']['CREDITCARD']['feeCap'] = 0;
+        globalConfiguration['configuration']['CREDITCARD']['transactionFeeVarriable'] = 0;
+      }
+      
+  ```
 - ##  Frontend App Temp Issue Fix
 - ```export async function getServerSideProps() {
    export async function getServerSideProps() {
