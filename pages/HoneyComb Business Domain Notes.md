@@ -145,6 +145,7 @@
 	- [HoneyComb Staging Data Drive link](https://docs.google.com/document/d/1WJEYP27L8bQlHReOpuAZ_5ogw5ojnQGG9Zn_iVzf8KE/edit)
 - Home Ip
 	- 39.48.45.20
+	- 39.38.234.103
 	-
 - # Node Versions
 	- ## Backend API
