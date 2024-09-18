@@ -18,3 +18,14 @@
   :LOGBOOK:
   CLOCK: [2024-09-18 Wed 15:54:41]
   :END:
+- ## Web App
+	- DOING /Users/irfanshahzad/Workspace/web-app/src/modules/campaigns/components/campaignsDetails/funding-details.tsx in prod_setup branch
+	  :LOGBOOK:
+	  CLOCK: [2024-09-18 Wed 16:57:27]
+	  :END:
+- ## Admin Panel
+	- DOING /Users/irfanshahzad/Workspace/honeycomb-admin-panel/src/containers/Campaign/CampaignForm.jsx in production branch
+	  :LOGBOOK:
+	  CLOCK: [2024-09-18 Wed 17:03:07]
+	  :END:
+	-
