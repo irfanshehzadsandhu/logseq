@@ -177,6 +177,10 @@
 - /Users/irfanshahzad/Workspace/honeycomb-api/honeycomb-staging-key.json
 - # Q3 Goals
 	- https://docs.google.com/document/d/1IIGsZ_tsU4HqpLZmdy9AagMyz-r0I2QTj1E_fC12qQc/edit
+- ## Testing Campaigns on staging
+	- Thread Bank Campaign: Chalet
+	  First Citizen Bank Campaign: Crawfish-cafe
+	-
 - ## FireBase file path for my local machine
 	- /Users/irfanshahzad/Workspace/honeycomb-api/honeycomb-firebase-staging-adminsdk.json
 - ## Honeycomb Mobile Testing Account for App Store
