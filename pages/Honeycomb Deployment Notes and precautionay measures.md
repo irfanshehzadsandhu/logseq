@@ -1,6 +1,6 @@
 ## Sprint 49 Deployment Notes
 - ```apl
-  DWOLLA_HONEYCOMB_THREAD_BANK_WALLET_ID=
+  DWOLLA_HONEYCOMB_THREAD_BANK=
   
   Add debtAuthorizationId in hybridTransaction Table
   # Asana
