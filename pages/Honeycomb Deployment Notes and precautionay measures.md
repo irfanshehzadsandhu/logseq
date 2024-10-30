@@ -17,6 +17,13 @@
   
   Asana personal access token
   2/1208551565664358/1208561108944644:6167706715a4ff5881bb489d4542942d
+  
+  
+  # SFTP
+  SFTP_HOST=35.185.56.63
+  SFTP_USERNAME=honeycombcredit
+  SFTP_PRIVATE_KEY_PATH=/Users/irfanshahzad/Workspace/honeycomb-api/id_rsa_staging.pem
+  SFTP_ROOT_DIRECTORY=files
   ```
 -
 - ##  Sprint 48 Deployment Notes
