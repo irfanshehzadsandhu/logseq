@@ -1,12 +1,13 @@
 - source /Users/apple/Workspace/snapdebt-backend/test-dump.sql
 - /usr/local/mysql/bin/mysqldump -uroot -p -h34.68.201.101 --column-statistics=0 snapdebt_prod > prod-dump-2022-09-22.sql
 -
-	-
-- # Week 2 deployment notes
-	- On live db verify creditorClass should not be greater than 12 in db
-	- https://snapdebtrecovery.atlassian.net/browse/SV1-62
-	-
-	-
+- ## Following error from outlook
+  :LOGBOOK:
+  CLOCK: [2024-11-02 Sat 04:45:17]
+  :END:
+- ```apl
+  AADSTS7000222: The provided client secret keys for app '07eb5996-8951-4017-bbfc-d15696be7bca' are expired. Visit the Azure portal to create new keys for your app: https://aka.ms/NewClientSecret, or consider using certificate credentials for added security: https://aka.ms/certCreds. Trace ID: 740ee8d0-6f7f-42aa-ab38-9c294f060000 Correlation ID: 3381d217-173b-40d7-8358-30322562ce11 Timestamp: 2024-11-01 23:43:26Z"
+  ```
 -
 -
 - # Query Engine Examples shared by amanda
