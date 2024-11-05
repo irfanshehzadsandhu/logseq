@@ -1,18 +1,13 @@
 - ```apl
   
+  15:45:20	UPDATE honeycomb.hybridTransactions  SET      status = 'refunded' AND achRefunded = 1 WHERE     debitAuthorizationId = 'Honeycomb-2024-11-01'         OR debitAuthorizationId = 'Honeycomb-2024-10-31'	Error Code: 1292. Truncated incorrect DOUBLE value: 'refunded'	0.228 sec
   
-  
-  
-  
-  try {
-      const data = await usaepayService.fetchTransactionDetail(
-        'idb2gtbfyhrjjkk7',
-        'FirstCitizenBank',
-      );
-      console.log('************', data);
-    } catch (e) {
-      console.log(e);
-    }
+  UPDATE honeycomb.hybridTransactions 
+  SET 
+      status = 'refunded' AND achRefunded = 1
+  WHERE
+      debitAuthorizationId = 'Honeycomb-2024-11-01'
+          AND debitAuthorizationId = 'Honeycomb-2024-10-31';
     
     
     if (chargeId != null) {
