@@ -1,5 +1,17 @@
 ## Sprint 49 Deployment Notes
 - kubectl create secret generic sftp-key --from-file=/Users/irfanshahzad/Workspace/honeycomb-api/
+	- DOING Register Asana Webhooks from Postman
+	  :LOGBOOK:
+	  CLOCK: [2024-11-07 Thu 19:48:43]
+	  :END:
+	- DOING Add cron jobs in helm charts
+	  :LOGBOOK:
+	  CLOCK: [2024-11-07 Thu 19:51:22]
+	  :END:
+	- DOING Add Refund status in stripe webhooks
+	  :LOGBOOK:
+	  CLOCK: [2024-11-07 Thu 19:56:01]
+	  :END:
 	-
 	- ```apl
 	  DWOLLA_HONEYCOMB_THREAD_BANK=
