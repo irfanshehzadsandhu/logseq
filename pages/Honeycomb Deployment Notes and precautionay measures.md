@@ -12,6 +12,10 @@
 	  :LOGBOOK:
 	  CLOCK: [2024-11-07 Thu 19:56:01]
 	  :END:
+	- DOING Remove payment intent created event from webhook
+	  :LOGBOOK:
+	  CLOCK: [2024-11-11 Mon 20:31:40]
+	  :END:
 	-
 	- ```apl
 	  DWOLLA_HONEYCOMB_THREAD_BANK=
