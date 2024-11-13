@@ -1,4 +1,5 @@
 ## Sprint 49 Deployment Notes
+- kubectl get secret sftp-key -n default -o yaml
 - kubectl create secret generic sftp-key --from-file=/Users/irfanshahzad/Workspace/honeycomb-api/
 	- DOING Register Asana Webhooks from Postman
 	  :LOGBOOK:
