@@ -1,8 +1,20 @@
 - source /Users/apple/Workspace/snapdebt-backend/test-dump.sql
 - /usr/local/mysql/bin/mysqldump -uroot -p -h34.68.201.101 --column-statistics=0 snapdebt_prod > prod-dump-2022-09-22.sql
--
-- ```apl
-  ```
+- DOING Run following query before deployment
+  :LOGBOOK:
+  CLOCK: [2024-11-18 Mon 15:19:43]
+  :END:
+	- ```apl
+	  SET SQL_SAFE_UPDATES = 0;
+	  
+	  UPDATE snapdebt_prod.ReversedPayments RP
+	          JOIN
+	      snapdebt_prod.Payments P ON RP.paymentId = P.paymentId 
+	  SET 
+	      RP.agencyContingency = P.agencyContingency
+	  WHERE
+	      RP.agencyContingency IS NULL;
+	  ```
 -
 - ## Following error from outlook
   :LOGBOOK:
