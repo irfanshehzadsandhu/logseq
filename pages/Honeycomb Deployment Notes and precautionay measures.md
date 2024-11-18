@@ -18,8 +18,7 @@
 	  CLOCK: [2024-11-11 Mon 20:31:40]
 	  :END:
 	-
-	- ```apl
-	  DWOLLA_HONEYCOMB_THREAD_BANK=
+	- DWOLLA_HONEYCOMB_THREAD_BANK=
 	  
 	  Add debtAuthorizationId,nachaFileName,walletRefunded, achRefunded in hybridTransaction Table
 	  # Asana
@@ -51,5 +50,4 @@
 	  SFTP_USERNAME=honeycombcredit
 	  SFTP_PRIVATE_KEY_PATH=/Users/irfanshahzad/Workspace/honeycomb-api/id_rsa_staging.pem
 	  SFTP_ROOT_DIRECTORY=files
-	  ```
 -
