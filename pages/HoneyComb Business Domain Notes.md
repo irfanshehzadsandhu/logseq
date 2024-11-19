@@ -188,6 +188,15 @@
 	- [joe+testaccount@honeycombcredit.com](mailto:joe+testaccount@honeycombcredit.com)
 	  Honeycomb@7194!
 - ```apl
+  SELECT 
+      *
+  FROM
+      honeycomb.uncaughtExceptions
+  WHERE
+      CONVERT( message USING UTF8) LIKE '%Error: connect ETIMEDOUT 209.239.233.8:443%'
+  ORDER BY createdAt DESC;
+  ```
+- ```apl
   select @email := 'andy.somerville@gmail.com';
   select @campaignName := 'Harvie';
   select @amount := 1000;
