@@ -1,8 +1,12 @@
 - source /Users/apple/Workspace/snapdebt-backend/test-dump.sql
 - /usr/local/mysql/bin/mysqldump -uroot -p -h34.68.201.101 --column-statistics=0 snapdebt_prod > prod-dump-2022-09-22.sql
-- DOING Run following query before deployment
+- DOING Add DebtorsDisableDebtCreditReport in admin permission template -> Also moazzam has added a new access level
   :LOGBOOK:
-  CLOCK: [2024-11-18 Mon 15:19:43]
+  CLOCK: [2024-11-20 Wed 03:07:09]
+  :END:
+- DONE Run following query before deployment
+  :LOGBOOK:
+  CLOCK: [2024-11-18 Mon 15:19:43]--[2024-11-20 Wed 03:06:52] =>  35:47:09
   :END:
 	- ```apl
 	  SET SQL_SAFE_UPDATES = 0;
