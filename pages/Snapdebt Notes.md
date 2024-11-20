@@ -4,6 +4,10 @@
   :LOGBOOK:
   CLOCK: [2024-11-20 Wed 03:07:09]
   :END:
+- DOING Add GeneralEditLetterTemplates in admin permission template
+  :LOGBOOK:
+  CLOCK: [2024-11-20 Wed 16:52:36]
+  :END:
 - DONE Run following query before deployment
   :LOGBOOK:
   CLOCK: [2024-11-18 Mon 15:19:43]--[2024-11-20 Wed 03:06:52] =>  35:47:09
