@@ -1,7 +1,7 @@
 ## Sprint 49 Deployment Notes
 - kubectl get secret sftp-key -n default -o yaml
 - kubectl create secret generic sftp-key --from-file=/Users/irfanshahzad/Workspace/honeycomb-api/
-	- LATER Register Asana Webhooks from Postman
+	- DONE Register Asana Webhooks from Postman
 	  :LOGBOOK:
 	  CLOCK: [2024-11-07 Thu 19:48:43]--[2024-11-21 Thu 17:25:58] =>  333:37:15
 	  :END:
@@ -26,19 +26,6 @@
 	  CLOCK: [2024-11-21 Thu 17:48:12]
 	  :END:
 		- ```apl
-		  DWOLLA_HONEYCOMB_THREAD_BANK=
+		  20:41:55	UPDATE hybridTransactions  SET      source = 'ThreadBank' WHERE     hybridTransactionId IN (SELECT              hc.hybridTransactionId AS hybridTransactionId         FROM             campaignFunds cf                 JOIN             hybridTransactions hc ON hc.campaignFundId = cf.campaignFundId                 JOIN             campaigns c ON c.campaignId = cf.campaignId         WHERE             hc.source = 'FirstCitizenBank'                 AND hc.transactionType = 'WALLET'                 AND c.escrowType = 'ThreadBank')	Error Code: 1093. You can't specify target table 'hybridTransactions' for update in FROM clause	0.00097 sec
 		  
-		  
-		  # Asana
-		  ASANA_PERSONAL_ACCESS_TOKEN=2/1208510852779166/1208541874804840:61b8370991a32a3ee4d9fca9782d184d
-		  PROJECT_GID=1208510855570967
-		  DESTINATION_GID=1208550751544142
-		  THREAD_BANK_APPROVAL_GID=1208550984778568
-		  PRE_AUTH_FORM_ATTACHMENT_GID=1208550972022377
-		  REFUND_AMOUNT_GID=1208551161595144
-		  DEBIT_AUTHORIZATION_ID=1208551156002450
-		  ACH_OPTION_GID=1208550762292878
-		  DWOLLA_OPTION_GID=1208550762292879
-		  STRIPE_OPTION_GID=1208550762292880
-		  ASANA_WEBHOOK_SECRET=790bf50f10c8947a588316d4fff82fd0
 		  ```
