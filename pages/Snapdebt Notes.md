@@ -8,6 +8,15 @@
   :LOGBOOK:
   CLOCK: [2024-11-20 Wed 16:52:36]
   :END:
+	- ```apl
+	  SELECT 
+	      *
+	  FROM
+	      snapdebt.PermissionTemplates
+	  WHERE
+	      accessName = 'admin'
+	          AND agencyId = 'b2ba227f-965b-46da-9ea8-83be9260e007';
+	  ```
 - DONE Run following query before deployment
   :LOGBOOK:
   CLOCK: [2024-11-18 Mon 15:19:43]--[2024-11-20 Wed 03:06:52] =>  35:47:09
