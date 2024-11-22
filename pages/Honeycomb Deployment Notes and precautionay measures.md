@@ -26,6 +26,4 @@
 	  CLOCK: [2024-11-21 Thu 17:48:12]
 	  :END:
 		- ```apl
-		  20:41:55	UPDATE hybridTransactions  SET      source = 'ThreadBank' WHERE     hybridTransactionId IN (SELECT              hc.hybridTransactionId AS hybridTransactionId         FROM             campaignFunds cf                 JOIN             hybridTransactions hc ON hc.campaignFundId = cf.campaignFundId                 JOIN             campaigns c ON c.campaignId = cf.campaignId         WHERE             hc.source = 'FirstCitizenBank'                 AND hc.transactionType = 'WALLET'                 AND c.escrowType = 'ThreadBank')	Error Code: 1093. You can't specify target table 'hybridTransactions' for update in FROM clause	0.00097 sec
-		  
 		  ```
