@@ -1,5 +1,9 @@
 - source /Users/apple/Workspace/snapdebt-backend/test-dump.sql
 - /usr/local/mysql/bin/mysqldump -uroot -p -h34.68.201.101 --column-statistics=0 snapdebt_prod > prod-dump-2022-09-22.sql
+- DOING **clientAlternateId** in debt table
+  :LOGBOOK:
+  CLOCK: [2024-11-25 Mon 21:13:09]
+  :END:
 - DOING Add DebtorsDisableDebtCreditReport in admin permission template -> Also moazzam has added a new access level
   :LOGBOOK:
   CLOCK: [2024-11-20 Wed 03:07:09]
