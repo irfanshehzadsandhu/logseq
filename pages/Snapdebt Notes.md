@@ -1,5 +1,13 @@
 - source /Users/apple/Workspace/snapdebt-backend/test-dump.sql
 - /usr/local/mysql/bin/mysqldump -uroot -p -h34.68.201.101 --column-statistics=0 snapdebt_prod > prod-dump-2022-09-22.sql
+- DOING Update Letters template column
+  :LOGBOOK:
+  CLOCK: [2024-11-28 Thu 04:16:17]
+  :END:
+	- ```apl
+	  ALTER TABLE `snapdebt_prod`.`Letters` 
+	  CHANGE COLUMN `template` `template` LONGTEXT CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_general_ci' NULL DEFAULT NULL ;
+	  ```
 - DOING **clientAlternateId** in debt table
   :LOGBOOK:
   CLOCK: [2024-11-25 Mon 21:13:09]
