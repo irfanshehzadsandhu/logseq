@@ -21,9 +21,9 @@
 	  :LOGBOOK:
 	  CLOCK: [2024-11-21 Thu 15:31:44]--[2024-11-21 Thu 16:59:48] =>  01:28:04
 	  :END:
-	- DOING Add Asana Secrets
+	- DONE Add Asana Secrets
 	  :LOGBOOK:
-	  CLOCK: [2024-11-21 Thu 17:48:12]
+	  CLOCK: [2024-11-21 Thu 17:48:12]--[2024-11-28 Thu 17:23:55] =>  167:35:43
 	  :END:
 		- ```apl
 		  ```
