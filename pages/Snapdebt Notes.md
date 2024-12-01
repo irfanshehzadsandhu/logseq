@@ -1,5 +1,12 @@
 - source /Users/apple/Workspace/snapdebt-backend/test-dump.sql
 - /usr/local/mysql/bin/mysqldump -uroot -p -h34.68.201.101 --column-statistics=0 snapdebt_prod > prod-dump-2022-09-22.sql
+- DOING Add following columns in Client Table
+  :LOGBOOK:
+  CLOCK: [2024-12-01 Sun 09:00:24]
+  :END:
+	- ```apl
+	  secondaryEmail, tertiaryEmail
+	  ```
 - DOING Update Letters template column
   :LOGBOOK:
   CLOCK: [2024-11-28 Thu 04:16:17]
