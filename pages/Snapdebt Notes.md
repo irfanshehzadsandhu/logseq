@@ -1,5 +1,17 @@
 - source /Users/apple/Workspace/snapdebt-backend/test-dump.sql
 - /usr/local/mysql/bin/mysqldump -uroot -p -h34.68.201.101 --column-statistics=0 snapdebt_prod > prod-dump-2022-09-22.sql
+- DOING Set decimals to 2
+  :LOGBOOK:
+  CLOCK: [2024-12-05 Thu 04:25:57]
+  :END:
+	- ```apl
+	  SET SQL_SAFE_UPDATES = 0;
+	  
+	  UPDATE snapdebt_prod.ReversedPayments 
+	  SET 
+	      agencyContingency = ROUND(agencyContingency, 2);
+	  
+	  ```
 - DOING Add following columns in Client Table
   :LOGBOOK:
   CLOCK: [2024-12-01 Sun 09:00:24]
