@@ -12,9 +12,9 @@
 	      agencyContingency = ROUND(agencyContingency, 2);
 	  
 	  ```
-- DOING Add following columns in Client Table
+- DONE Add following columns in Client Table
   :LOGBOOK:
-  CLOCK: [2024-12-01 Sun 09:00:24]
+  CLOCK: [2024-12-01 Sun 09:00:24]--[2024-12-05 Thu 05:25:29] =>  92:25:05
   :END:
 	- ```apl
 	  secondaryEmail, tertiaryEmail  
@@ -27,9 +27,9 @@
 	  ALTER TABLE `snapdebt_prod`.`Letters` 
 	  CHANGE COLUMN `template` `template` LONGTEXT CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_general_ci' NULL DEFAULT NULL ;
 	  ```
-- DOING **clientAlternateId** in debt table
+- DONE **clientAlternateId** in debt table
   :LOGBOOK:
-  CLOCK: [2024-11-25 Mon 21:13:09]
+  CLOCK: [2024-11-25 Mon 21:13:09]--[2024-12-05 Thu 05:24:19] =>  224:11:10
   :END:
 - DOING Add DebtorsDisableDebtCreditReport in admin permission template -> Also moazzam has added a new access level
   :LOGBOOK:
