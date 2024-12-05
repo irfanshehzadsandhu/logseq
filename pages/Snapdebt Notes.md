@@ -19,9 +19,9 @@
 	- ```apl
 	  secondaryEmail, tertiaryEmail  
 	  ```
-- DOING Update Letters template column
+- DONE Update Letters template column
   :LOGBOOK:
-  CLOCK: [2024-11-28 Thu 04:16:17]
+  CLOCK: [2024-11-28 Thu 04:16:17]--[2024-12-05 Thu 05:26:05] =>  169:09:48
   :END:
 	- ```apl
 	  ALTER TABLE `snapdebt_prod`.`Letters` 
@@ -31,13 +31,13 @@
   :LOGBOOK:
   CLOCK: [2024-11-25 Mon 21:13:09]--[2024-12-05 Thu 05:24:19] =>  224:11:10
   :END:
-- DOING Add DebtorsDisableDebtCreditReport in admin permission template -> Also moazzam has added a new access level
+- DONE Add DebtorsDisableDebtCreditReport in admin permission template -> Also moazzam has added a new access level
   :LOGBOOK:
-  CLOCK: [2024-11-20 Wed 03:07:09]
+  CLOCK: [2024-11-20 Wed 03:07:09]--[2024-12-05 Thu 05:28:42] =>  362:21:33
   :END:
-- DOING Add GeneralEditLetterTemplates in admin permission template
+- DONE Add GeneralEditLetterTemplates in admin permission template
   :LOGBOOK:
-  CLOCK: [2024-11-20 Wed 16:52:36]
+  CLOCK: [2024-11-20 Wed 16:52:36]--[2024-12-05 Thu 05:26:47] =>  348:34:11
   :END:
 	- ```apl
 	  SELECT 
