@@ -10,6 +10,12 @@
 	  UPDATE snapdebt_prod.ReversedPayments 
 	  SET 
 	      agencyContingency = ROUND(agencyContingency, 2);
+	      
+	  SET SQL_SAFE_UPDATES = 0;
+	  
+	  UPDATE snapdebt_prod.Debts 
+	  SET 
+	      amount = ROUND(amount, 2);    
 	  
 	  ```
 - DONE Add following columns in Client Table
