@@ -1,5 +1,9 @@
 - source /Users/apple/Workspace/snapdebt-backend/test-dump.sql
 - /usr/local/mysql/bin/mysqldump -uroot -p -h34.68.201.101 --column-statistics=0 snapdebt_prod > prod-dump-2022-09-22.sql
+- # Bug sheet
+	- [Bugs Sheet](https://docs.google.com/spreadsheets/d/1bDICJ7xCGZeC1MUYh9z1nunGf2p1zz5HS5VwfUaON-A/edit?gid=0#gid=0)
+	-
+	-
 - DOING Run roundOffDebtFee
   :LOGBOOK:
   CLOCK: [2024-12-05 Thu 04:25:57]
