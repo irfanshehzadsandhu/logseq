@@ -4,14 +4,14 @@
 	- Latest code is on version-6-sprint-2-fix branch for both backend and frontend
 	-
 	-
-- DOING Run roundOffDebtFee
+- DONE Run roundOffDebtFee
   :LOGBOOK:
   CLOCK: [2024-12-05 Thu 04:25:57]
-  CLOCK: [2024-12-09 Mon 09:40:06]
+  CLOCK: [2024-12-09 Mon 09:40:06]--[2025-01-20 Mon 17:42:00] =>  1016:01:54
   :END:
-- DOING Change float type to decimals
+- DONE Change float type to decimals
   :LOGBOOK:
-  CLOCK: [2024-12-09 Mon 09:41:02]
+  CLOCK: [2024-12-09 Mon 09:41:02]--[2025-01-20 Mon 17:42:01] =>  1016:00:59
   :END:
 	-
 	- ```apl
