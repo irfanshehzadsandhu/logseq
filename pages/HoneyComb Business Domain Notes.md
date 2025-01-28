@@ -188,6 +188,32 @@
 	- [joe+testaccount@honeycombcredit.com](mailto:joe+testaccount@honeycombcredit.com)
 	  Honeycomb@7194!
 - ```apl
+  USE honeycomb;
+  SELECT 
+      sum(ht.amount)
+  FROM
+      hybridTransactions ht
+          LEFT JOIN
+      campaignFunds cf ON cf.campaignFundId = ht.campaignFundId
+          LEFT JOIN
+      campaigns c ON c.campaignId = cf.campaignId
+          LEFT JOIN
+      investors i ON i.investorId = cf.investorId
+          LEFT JOIN
+      users u ON u.userId = i.userId
+  WHERE
+      (ht.transactionType = 'ACH'
+          || ht.transactionType = 'HYBRID'
+          || ht.transactionType = 'Hybrid')
+          AND (ht.status = 'refund processing'
+          || ht.status = 'refund approved'
+          || ht.status = 'pending refund')
+          AND ht.source = 'ThreadBank'
+          AND ht.nachaFileName IS NULL
+          AND ht.deletedAt IS NULL
+  ORDER BY c.campaignName , ht.updatedAt DESC;
+  ```
+- ```apl
   SELECT 
       *
   FROM
