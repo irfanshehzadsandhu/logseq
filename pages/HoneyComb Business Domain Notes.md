@@ -185,6 +185,33 @@
 	- /Users/irfanshahzad/Workspace/honeycomb-api/honeycomb-firebase-staging-adminsdk.json
 - ## Refund Flow Diagran
 - https://www.figma.com/board/uu7UJNFPtMvtGaiJwqUoJG/2024-workflow?node-id=1505-751&t=ScVMmeeq0v1HmB9E-1
+- ```apl
+  select debitAuthorizationId "Debit Authorization Id",campaignName Offering,concat(firstName," ",lastName) Investor,case when hc.transactionType = "HYBRID" then ROUND(hc.walletAmount,2) else ROUND(hc.amount,2) end as amount from hybridTransactions hc join campaignFunds cf on cf.campaignFundId = hc.campaignFundId join investors i on i.investorId = cf.investorId join users u on u.userId = i.userId join campaigns c on c.campaignId = cf.campaignId where debitAuthorizationId in ("6c5aae20-9fb5-4824-b498-bf525bfb2d3b",
+  "da41df50-e726-4dbe-9c42-0ac081ebb3be",
+  "ff97c875-a58d-4533-9931-b095efdb2bfa",
+  "3249846b-a7b3-4bcc-a7d0-9b50c0770f41")
+  
+  
+  
+  use honeycomb;
+  SELECT 
+      campaignName Offering,
+      CONCAT(firstName, ' ', lastName) Investor,
+      ROUND(hc.amount, 2) AS amount,
+      ROUND(hc.applicationFee, 2) AS transactionFee
+  FROM
+      hybridTransactions hc
+          JOIN
+      campaignFunds cf ON cf.campaignFundId = hc.campaignFundId
+          JOIN
+      investors i ON i.investorId = cf.investorId
+          JOIN
+      users u ON u.userId = i.userId
+          JOIN
+      campaigns c ON c.campaignId = cf.campaignId
+  WHERE
+      nachaFileName = 'Honeycomb-2025-02-13';
+  ```
 - ## Honeycomb Mobile Testing Account for App Store
 	- [joe+testaccount@honeycombcredit.com](mailto:joe+testaccount@honeycombcredit.com)
 	  Honeycomb@7194!
