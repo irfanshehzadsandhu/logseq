@@ -73,7 +73,7 @@
   SOCKET_URL=https://moonrock-dev-api.carbonteq.com
   
   ONE_SIGNAL_APP_ID=53d9f558-5041-4b4e-a33f-83289350b929
-  STRIPE_PUBLISH_KEY=pk_live_51LcG97HcLP3Gh68F270unKRBjGbl7EAJgp7NyLrxjikUD97stEOLN23Qwl0XEYhGikQ8ilabndyWgBdti4w6l4XS00hfSvD7mU
+  STRIPE_PUBLISH_KEY=pk_live_
   STRIPE_SUBSCRIPTION_LINK=https://buy.stripe.com/5kA3f4eZN6H99TqdQQ
   
   
