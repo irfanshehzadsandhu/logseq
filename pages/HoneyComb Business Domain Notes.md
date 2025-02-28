@@ -144,8 +144,7 @@
 	- [[Tables Involve In Investment]]
 	- [HoneyComb Staging Data Drive link](https://docs.google.com/document/d/1WJEYP27L8bQlHReOpuAZ_5ogw5ojnQGG9Zn_iVzf8KE/edit)
 - ## Home Ip
-	- 182.190.187.165
-	- 182.190.186.3
+	- 39.38.233.148
 	-
 - # Node Versions
 	- ## Backend API
