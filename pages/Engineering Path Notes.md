@@ -18,4 +18,6 @@
 			- Use your manager to discover what’s possible where you are, but look to understand yourself in order to figure out where you want to go next.
 		- You are responsible for yourself
 		- Give your manager a break
-		-
+- [[Engineering Manager Notes -> GreenField Meeting]]
+- [[Engineering Manager Mindset Points]]
+	-

@@ -1,0 +1,11 @@
+- Focus on Inputs
+- Focus on stability
+- Create Accountablity
+- Clarify on why -> why in business
+- Asking Right Questions
+-
+- ## Important Terms
+	- Shit Umbrella
+	- Heorine Pattern
+	- Shit Sandwich
+	-
