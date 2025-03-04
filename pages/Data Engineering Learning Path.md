@@ -1,0 +1,2 @@
+- https://bytemedirk.medium.com/the-comprehensive-data-engineering-learning-path-for-2024-and-beyond-bf608764d953
+-
