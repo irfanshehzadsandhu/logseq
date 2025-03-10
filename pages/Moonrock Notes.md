@@ -1,4 +1,8 @@
-- [Figma](https://www.figma.com/design/Du6swjsVS2oBbvVcg9ELxo/Moonrock-Master-by-Luiggi-(2024))
+### Concerns
+	- We are not taking db dumps
+	  Current app is not maintainable anymore
+	- I have saved some notes in google drive and important notes regarding notifications , json file for service account(firebase)
+	-
 - Moonrook api env
   id:: 64ad2f7c-9ca6-462d-b0cb-1bb41be71498
   
