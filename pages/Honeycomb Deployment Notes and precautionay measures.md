@@ -1,4 +1,9 @@
-## Sprint 49 Deployment Notes
+## Sprint 52 Deployment Notes
+	- ### ENV Variables
+		- ```apl
+		  GOOGLE_MAPS_API_KEY=AIzaSyBxxRxMRoOxMcrFMyoYPV3-8EIqzPh0PGk
+		  ```
+- ## Sprint 49 Deployment Notes
 - kubectl get secret sftp-key -n default -o yaml
 - kubectl create secret generic sftp-key --from-file=/Users/irfanshahzad/Workspace/honeycomb-api/
 	- DONE Register Asana Webhooks from Postman
