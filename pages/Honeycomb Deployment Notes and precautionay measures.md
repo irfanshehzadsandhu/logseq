@@ -1,7 +1,7 @@
 ## Sprint 52 Deployment Notes
 	- ### ENV Variables
 		- ```apl
-		  GOOGLE_MAPS_API_KEY=AIzaSyBxxRxMRoOxMcrFMyoYPV3-8EIqzPh0PGk
+		  GOOGLE_MAPS_API_KEY=****
 		  ```
 - ## Sprint 49 Deployment Notes
 - kubectl get secret sftp-key -n default -o yaml
