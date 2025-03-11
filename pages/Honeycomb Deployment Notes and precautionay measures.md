@@ -1,4 +1,5 @@
 ## Sprint 52 Deployment Notes
+	- Run lat lng script
 	- ### ENV Variables
 		- ```apl
 		  GOOGLE_MAPS_API_KEY=****
