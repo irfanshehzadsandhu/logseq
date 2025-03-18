@@ -17,5 +17,15 @@
   
   Irfan Shahzad
   
+  
+  𝗢𝗽𝗲𝗻 𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻𝘀
+  I have contributed in following open source libraries
+  
+  ✔ - https://github.com/erickjth/simple-command-bus
+  ✔- https://www.npmjs.com/package/@carbonteq/ddd-generator
+  ✔ - https://www.npmjs.com/package/@carbonteq/resilience
+  
+  https://www.irfanshehzadsandhu.com/
+  
   ```
 -
