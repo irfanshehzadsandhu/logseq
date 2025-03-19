@@ -1,0 +1,2 @@
+- [Learning path link](https://app.pluralsight.com/library/courses/tensorflow-developer-certificate-skills/table-of-contents)
+-

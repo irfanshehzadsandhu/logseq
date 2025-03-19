@@ -1,0 +1,1 @@
+- Natural language processing enable computers to understand written language and act upon it
