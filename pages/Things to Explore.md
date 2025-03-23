@@ -1,0 +1,13 @@
+- DOING Napkin
+  :LOGBOOK:
+  CLOCK: [2025-03-23 Sun 06:22:03]
+  :END:
+- DOING Notebook LLM
+  :LOGBOOK:
+  CLOCK: [2025-03-23 Sun 06:22:01]
+  :END:
+- DOING SORA
+  :LOGBOOK:
+  CLOCK: [2025-03-23 Sun 06:22:00]
+  :END:
+-
