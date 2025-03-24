@@ -1,3 +1,13 @@
 - [[NLP]]
 - https://github.com/axel-sirota/nlp-and-transformers
--
+	- [[matplotlib]]
+	- [[Seaborn]]
+	- [[numpy]]
+	- [[Gensim]]
+	- [[Word Embeddings]]
+	- [[Topic Modeling]]
+	- [[NLTK]]
+	-
+	-
+	-
+	-

@@ -1,0 +1,3 @@
+- Topic model is an unsupervised machine learning technique use to discuss hidden topics in a collection of documents
+- Its helps in organising and summarizing large amount of text by identifying words which appear together
+- Most common technique is LDA

@@ -1,0 +1,5 @@
+- Numberical vector representation of words, capturing their meanings, contexts, and relationships.
+- Semantic similarity between words
+- Most common technique
+	- Word2Vec
+	-
