@@ -1,0 +1,2 @@
+- **`punkt`** is a pre-trained tokenizer that splits text into **sentences** and **words**.
+-
