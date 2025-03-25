@@ -1,0 +1,3 @@
+- Matrix having more zeros than non zeros
+- [Reference link](https://www.mygreatlearning.com/blog/understanding-sparse-matrix/)
+-

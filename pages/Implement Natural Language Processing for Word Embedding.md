@@ -2,6 +2,7 @@
 - [[One hot encoding OHE]]
 - [[📌 Pandas]]
 - [[punkit]]
+- [[Sparse Matrix]]
 - %matplotlib inline
 	- is used in **Jupyter Notebooks** to **display Matplotlib plots directly inside the notebook**.
 - **bag-of-words representation**.?
