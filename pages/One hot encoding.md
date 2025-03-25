@@ -1,0 +1,9 @@
+- One hot-encoding is a method to convert categorical data into numbers
+- Models don't understand categorical data, only understand numbers
+-
+- [Reference from educative](https://www.educative.io/blog/one-hot-encoding)
+-
+- [#A]  What is Categorical data?
+	- Data can't be represented in numbers e.g colors, cities
+	- Is divided into different groups and categories
+	-

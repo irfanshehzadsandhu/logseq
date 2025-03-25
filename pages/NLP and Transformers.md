@@ -7,6 +7,7 @@
 	- [[Word Embeddings]]
 	- [[Topic Modeling]]
 	- [[NLTK]]
+	- [[Implement Natural Language Processing for Word Embedding]]
 	-
 	-
 	-

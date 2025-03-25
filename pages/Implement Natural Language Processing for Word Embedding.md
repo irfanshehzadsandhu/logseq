@@ -1,2 +1,3 @@
 - [Plural Sight Tutorial link](https://app.pluralsight.com/ilx/video-courses/1247d1e0-3fa6-45b5-b951-166740294add/25da33f0-8d5d-43cd-9636-528af02476f6/3b56d81b-4d2a-4d9f-93a2-3672e584d63d)
+- [[One hot encoding]]
 -
