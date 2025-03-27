@@ -16,9 +16,7 @@
   
   ```
   vect = CountVectorizer()
-  ```
-  
-  ✅ **Creates an instance of `CountVectorizer()`**, which is used to **convert text data into a bag-of-words representation**.
+   an instance of `CountVectorizer()`**, which is used to **convert text data into a bag-of-words representation**.
   
   ---
   
@@ -27,8 +25,8 @@
   
   CopyEdit
   
-  ohe_rep = vect.fit_transform(corpus)
-  e `CountVectorizer` to `corpus` (your text data) and transforms it into a [[Sparse Matrix]] 
+  ohe_rep = vect.fitohe_rep = vect.fit_transform(corpus)
+  r text data) and transforms it into a [[Sparse Matrix]] 
    representation.**
 - `fit_transform()` **does two things**:
 	- **Learns the vocabulary** (unique words in the corpus).
@@ -104,12 +102,8 @@
   
   ✔ **Example Output**
   
-  ```
-  python
-  
-  CopyEdit
-  
-  (3, 6)  # 3 sentences, 6 unique words
+  ``(3, 6)  # 3 sentences, 6 unique words
+  s
   ```
   
   ---
@@ -120,9 +114,7 @@
   CopyEdit
   
   'good' in features
-  ```
-  
-  ✅ **Checks if the word `'good'` is in the vocabulary.**
+  if the word `'good'` is in the vocabulary.**
   
   ✔ **Example Output**
   
@@ -131,20 +123,12 @@
   
   CopyEdit
   
-  True  # If 'good' is in the vocabulary
+  True  # If 'good' True  # If 'good' is in the vocabulary
+  ellent' in features
   ```
   
-  ---
-  
-  ```
-  python
-  
-  CopyEdit
-  
-  'excellent' in features
-  ```
-  
-  ✅ **Checks if the word `'excellent'` is in the vocabulary.**
+  ✅ **C'excellent' in features
+  vocabulary.**
   
   ✔ **Example Output**
   
@@ -156,14 +140,10 @@
   True  # If 'excellent' is in the vocabulary
   ```
   
-  ---
+  ---True  # If 'excellent' is in the vocabulary
 - ## **📌 Full Code Example**
   
   ```
-  python
-  
-  CopyEdit
-  
   from sklearn.feature_extraction.text import CountVectorizer
   
   # Sample corpus
@@ -193,14 +173,11 @@
   
   CopyEdit
   
-  Vocabulary: ['appreciated' 'excellent' 'good' 'is' 'this' 'work']
+  VVocabulary: ['appreciated' 'excellent' 'good' 'is' 'this' 'work']
   First 20 words: ['appreciated' 'excellent' 'good' 'is' 'this' 'work']
   Shape of transformed data: (3, 6)
   Is 'good' in vocabulary? True
   Is 'excellent' in vocabulary? True
-  ```
-  
-  ---
 - ### **📌 Summary Table**
   
   | **Line of Code** | **Explanation** | **Example Output** |
@@ -212,4 +189,3 @@
   | `ohe_rep.shape` | Shape of the transformed data | `(3, 6)` |
   | `'good' in features` | Checks if `'good'` is in the vocabulary | `True` |
   | `'excellent' in features` | Checks if `'excellent'` is in the vocabulary | `True` |
--
