@@ -1,4 +1,4 @@
-- # [[Jul 7th, 2023]]
+# [[Jul 7th, 2023]]
 	- Before Starting review I want to share I have found moazzam very hard working and I believe he has a strong potential. Remember this review is to motivate you , help to grow in your career and to build a trust between you and me.
 	- ## Please discuss the employee along the lines of technical skills
 		- ### Core Engineering
@@ -53,4 +53,45 @@
 		- Needs to figure out when he was working with Musab Akram he didn't use this approach to share his thought process with him.
 	- ## How well do they handle and give feedback in team meetings or code reviews? How well are they able to enable other team members in their work?
 		- I have found Moazzam open and receptive during feedback. He listens actively and seek any clarification if required.
+	-
+- DONE Effective use of time and keeping things to the point
+- DOING Incorporate broader knowledge as a hobby in after office time
+  :LOGBOOK:
+  CLOCK: [2025-04-08 Tue 19:53:08]
+  :END:
+	- ```apl
+	  - fp package -> alpha release , async support , awais worked with Arslan and completed test cases. Increase test coverage
+	  - Add drives for cache, storage in hexapp
+	  - Design Principles -> https://youtu.be/FpwZTl3dCZE?list=PL-c9Rq56P4KkVJdnL3YVesRGP-MLkzgme
+	  ```
+- DONE Learn to not overcomplicate things
+- DONE Be well prepared before meetings (in checking edge cases etc)
+- DOING Be more proactive in gaining new skills
+  :LOGBOOK:
+  CLOCK: [2025-04-08 Tue 19:53:37]
+  :END:
+- DOING Role upgrade
+  :LOGBOOK:
+  CLOCK: [2025-04-08 Tue 19:53:46]
+  :END:
+- DONE  Improve active listening during meetings, especially during sprint planning.
+- ```apl
+  Effective use of time and keeping things to the point
+  Incorporate broader knowledge as a hobby in after office time
+  Learn to not overcomplicate things
+  Be well prepared before meetings (in checking edge cases etc)
+  Be more proactive in gaining new skills
+  Role upgrade
+  
+  Moazzam’s points
+  Aimed to revisit core concepts to identify and address any gaps, ensuring a stronger foundation for tackling complex challenges.
+  Aiming to expand my professional presence online by sharing knowledge, engaging with developer communities, and contributing tob
+  relevant forums.
+  Aimed to contribute across different software development domains, including UI/UX, to grow as a well-rounded developer.
+  
+  
+  Broad knowledge: Complete the recommended exercises from Irfan Sir and manage time efficiently.
+  Schedule a meeting with your current manager to understand the existing domain, which can help reduce irrelevant questioning and improve speed of delivery.
+  Improve active listening during meetings, especially during sprint planning.
+  ```
 	-
