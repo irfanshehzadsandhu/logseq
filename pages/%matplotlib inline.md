@@ -1,0 +1,1 @@
+- used in **Jupyter Notebooks** to **display Matplotlib plots directly inside the notebook**.

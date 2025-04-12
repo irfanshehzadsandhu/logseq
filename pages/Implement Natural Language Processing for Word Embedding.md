@@ -1,10 +1,13 @@
 - [Plural Sight Tutorial link](https://app.pluralsight.com/ilx/video-courses/1247d1e0-3fa6-45b5-b951-166740294add/25da33f0-8d5d-43cd-9636-528af02476f6/3b56d81b-4d2a-4d9f-93a2-3672e584d63d)
+- [Colab link](https://colab.research.google.com/github/axel-sirota/implement-nlp-word-embedding/blob/main/module3/Module3_Demo1_Using_One_Hot_Encodings.ipynb#scrollTo=R8aZ3C9aNB27)
+-
 - [[One hot encoding OHE]]
 - [[📌 Pandas]]
 - [[punkit]]
 - [[Sparse Matrix]]
-- %matplotlib inline
-	- is used in **Jupyter Notebooks** to **display Matplotlib plots directly inside the notebook**.
+- [[TextBlob]]
+- [[%matplotlib inline]]
+	-
 - **bag-of-words representation**.?
 - ### Points to Ponder
 	- Words -> Tokens

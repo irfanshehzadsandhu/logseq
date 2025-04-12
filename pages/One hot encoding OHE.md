@@ -1,4 +1,6 @@
 ### Understand code from tutorial using chatGpt
+	- [Colab link ](https://colab.research.google.com/github/axel-sirota/implement-nlp-word-embedding/blob/main/module3/Module3_Demo1_Using_One_Hot_Encodings.ipynb#scrollTo=R8aZ3C9aNB27)
+	-
 	- ```apl
 	  vect = CountVectorizer()
 	  ohe_rep = vect.fit_transform(corpus)

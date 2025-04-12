@@ -2,11 +2,13 @@
 - https://github.com/axel-sirota/nlp-and-transformers
 	- [[matplotlib]]
 	- [[Seaborn]]
+	- [[📌 Pandas]]
 	- [[numpy]]
 	- [[Gensim]]
 	- [[Word Embeddings]]
 	- [[Topic Modeling]]
 	- [[NLTK]]
+	- [[punkit]]
 	- [[Implement Natural Language Processing for Word Embedding]]
 	-
 	-
