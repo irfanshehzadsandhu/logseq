@@ -1,7 +1,7 @@
 - Pandas is a **Python library for data manipulation and analysis**.
   title:: 📌 Pandas
 -
-- It provides **data structures** and **functions** to handle **structured data (tables, CSVs, databases, etc.)**.
+- It provides **functions** to handle **structured data (tables, CSVs, databases, etc.)**.
 -
 - ### **📌 Why Use Pandas?**
   

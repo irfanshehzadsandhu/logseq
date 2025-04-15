@@ -1,4 +1,11 @@
-## Sprint 52 Deployment Notes
+## Sprint 53 Deployment Notes
+	- ```apl
+	  ALTER TABLE `honeycomb`.`campaignFunds` 
+	  ADD COLUMN `promotionCredits` FLOAT NULL DEFAULT NULL AFTER `entityId`;
+	  
+	  
+	  ```
+- ## Sprint 52 Deployment Notes
 	- Run lat lng script
 	- ### ENV Variables
 		- ```apl

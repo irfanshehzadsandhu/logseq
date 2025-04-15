@@ -1,1 +1,2 @@
+- Natural language processing are set of tools and techniques which enable us to unlock power of analyzing text
 - Natural language processing enable computers to understand written language and act upon it
