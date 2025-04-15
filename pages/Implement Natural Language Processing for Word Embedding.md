@@ -3,11 +3,11 @@
 - [Personal Colab link](https://colab.research.google.com/drive/1kLZvCSETTv5yHgMPIClRyb2ev5GWJ7ai)
 -
 - ## Things to cover
-	- pytorch
 	- [[TensorFlow]]
 - [[NLP]]
 - [[Word Embeddings]]
 - ## Why Process Text?
+	- [Github link](https://github.com/axel-sirota/implement-nlp-word-embedding/blob/main/module3/Module3_Demo1_Using_One_Hot_Encodings.ipynb)
 	- To extract value from text
 	- e.g to extract harmful tweet against company
 	- to construct speech
@@ -60,7 +60,7 @@
 			  logseq.order-list-type:: number
 			- **transform**: converts each document into a vector based on that vocabulary, counting how many times each word appears.
 			  logseq.order-list-type:: number
-			- The result is a **sparse matrix**, meaning it only stores positions where counts are non-zero.
+			- The result is a [[Sparse Matrix]] , meaning it only stores positions where counts are non-zero.
 			  logseq.order-list-type:: number
 			- `.toarray()` converts that sparse matrix into a regular 2D NumPy array so it's easier to view and work with.
 			  logseq.order-list-type:: number
@@ -100,9 +100,12 @@
 						         [3, 6]]
 						  
 						  ```
+- ## Analyzing sentiments with OHE
+	- [Github link](https://github.com/axel-sirota/implement-nlp-word-embedding/blob/main/module3/Module3_Demo2_Analysing_Sentiment_With_OHE.ipynb)
+	- [[PyTorch]]
+	-
 - # Important Points
 - [[punkit]]
-- [[Sparse Matrix]]
 - [[TextBlob]]
 - [[%matplotlib inline]]
 	-
