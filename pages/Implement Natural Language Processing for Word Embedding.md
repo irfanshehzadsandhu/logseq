@@ -4,7 +4,7 @@
 -
 - ## Things to cover
 	- pytorch
-	- tensorflow
+	- [[TensorFlow]]
 - [[NLP]]
 - [[Word Embeddings]]
 - ## Why Process Text?
@@ -100,15 +100,7 @@
 						         [3, 6]]
 						  
 						  ```
-		-
-		-
-		-
-		-
-		-
--
--
--
--
+- # Important Points
 - [[punkit]]
 - [[Sparse Matrix]]
 - [[TextBlob]]
