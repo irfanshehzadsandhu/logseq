@@ -1,0 +1,2 @@
+- It measures how far off your model’s predictions are from the actual class labels.
+-

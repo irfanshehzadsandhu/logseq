@@ -103,6 +103,10 @@
 - ## Analyzing sentiments with OHE
 	- [Github link](https://github.com/axel-sirota/implement-nlp-word-embedding/blob/main/module3/Module3_Demo2_Analysing_Sentiment_With_OHE.ipynb)
 	- [[PyTorch]]
+	- ```apl
+	  y_train = torch.Tensor(y_train.values).type(torch.LongTensor).to(device)
+	  ```
+	- [[LongTensor]]
 	-
 - # Important Points
 - [[punkit]]
